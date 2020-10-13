@@ -1,0 +1,28 @@
+@import './variables';
+
+.about {
+  width: 65%;
+  color: $color-black;
+
+  .about-header {
+    font-size: 2.5rem;
+    font-family: $font-secondary;
+    margin-left: 5%;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+
+    .about-img {
+      width: 15vw;
+    }
+
+    .about-para {
+      font-family: $font-primary;
+      font-size: 1.5rem;
+    }
+  }
+}
