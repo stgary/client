@@ -10,12 +10,12 @@ export default function Skills() {
         <div className='skills-item'>
           <p>Node.js</p>
           <p>Express</p>
-          <p>PostgreSql</p>
+          <p>Python</p>
         </div>
         <div className='skills-item'>
           <p>JavaScript</p>
           <p>HTML</p>
-          <p>Python</p>
+          <p>CSS</p>
         </div>
         <div className='skills-item'>
           <p>React</p>
@@ -23,7 +23,7 @@ export default function Skills() {
           <p>Less/Sass</p>
         </div>
         <div className='skills-item'>
-          <p>CSS</p>
+          <p>PostgreSql</p>
           <p>Sqlite3</p>
           <p>MongoDB</p>
         </div>

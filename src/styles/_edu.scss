@@ -1,0 +1,44 @@
+@import '../variables';
+
+.edu {
+  color: $color-black;
+  background-color: $color-white;
+
+  .edu-header {
+    font-family: $font-secondary;
+    font-size: 2.5rem;
+    margin-left: 5%;
+  }
+
+  .edu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0% 2% 0%;
+
+    .edu-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .sm {
+        font-family: $font-primary;
+        font-size: 1rem;
+        margin: 0;
+      }
+      
+      .lg {
+        font-family: $font-primary;
+        font-size: 2rem;
+        margin: 0;
+      }
+      
+      .md{
+        font-family: $font-primary;
+        font-size: 1rem;
+        margin: 0;
+      }
+    }
+  }
+}
