@@ -111,6 +111,9 @@ table {
 .about {
   width: 65%;
   color: #333333;
+  background-color: #d7eee8;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
 }
 
 .about .about-header {
