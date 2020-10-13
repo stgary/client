@@ -10,7 +10,7 @@ import {
 export default function Header() {
   return (
     <div className='header'>
-      <p className='header-name'>Stephen Gary</p>
+      <p className='header-name'>I am Stephen Gary</p>
       <p className='header-title'>Web Developer</p>
       <div className='icon-container'>
         <a href='https://github.com/stgary'>

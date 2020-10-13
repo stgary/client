@@ -1,0 +1,28 @@
+@import './variables';
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-primary;
+  color: rgb(215, 238, 232);
+
+  .header-name {
+    font-size: 3rem;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+
+    .icon {
+      font-size: 1.25rem;
+    }
+  }
+}
