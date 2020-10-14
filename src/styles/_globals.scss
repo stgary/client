@@ -16,6 +16,10 @@ html,body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      .spacer {
+        height: 100px;
+      }
     }
   }
 }

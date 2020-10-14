@@ -20,12 +20,12 @@ export default function Skills() {
         <div className='skills-item'>
           <p>React</p>
           <p>Redux</p>
-          <p>Less/Sass</p>
+          <p>Less</p>
         </div>
         <div className='skills-item'>
           <p>PostgreSql</p>
           <p>Sqlite3</p>
-          <p>MongoDB</p>
+          <p>Sass</p>
         </div>
       </div>
     </div>

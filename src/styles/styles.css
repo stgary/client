@@ -33,6 +33,10 @@ html #root .top, body #root .top {
           align-items: center;
 }
 
+html #root .top .spacer, body #root .top .spacer {
+  height: 100px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,7 +138,7 @@ table {
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 5%;
-  padding: 2% 0% 2% 0%;
+  padding: 2% 0% 4% 0%;
 }
 
 .about .about-header {
@@ -153,7 +157,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2% 5% 2% 5%;
+  padding: 2% 5% 2% 5%;
 }
 
 .about .about-container .about-img {
@@ -181,13 +185,13 @@ table {
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
-  padding: 2% 0% 3% 0%;
+  padding: 2% 0% 4% 0%;
 }
 
 .skills .skills-header {
   font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
-  margin: 2% 5% 2% 5%;
+  margin-left: 5%;
 }
 
 .skills .skills-container {
@@ -200,7 +204,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2% 0% 2% 0%;
+  padding: 4% 0% 2% 0%;
 }
 
 .skills .skills-container .skills-item {
@@ -215,7 +219,7 @@ table {
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
-  padding: 2% 0% 3% 0%;
+  padding: 2% 0% 4% 0%;
 }
 
 .edu .edu-header {
@@ -233,7 +237,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2% 0% 2% 0%;
+  padding: 4% 0% 2% 0%;
 }
 
 .edu .edu-container .edu-item {
@@ -250,20 +254,18 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Alegreya", serif;
 }
 
 .edu .edu-container .edu-item .sm {
-  font-family: "Alegreya", serif;
   font-size: 1rem;
 }
 
 .edu .edu-container .edu-item .lg {
-  font-family: "Alegreya", serif;
   font-size: 2rem;
 }
 
 .edu .edu-container .edu-item .md {
-  font-family: "Alegreya", serif;
   font-size: 1.25rem;
 }
 
@@ -274,7 +276,7 @@ table {
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
-  padding: 2% 0% 3% 0%;
+  padding: 2% 0% 4% 0%;
 }
 
 .projects .projects-header {
@@ -293,7 +295,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2% 5% 2% 5%;
+  padding: 4% 0% 2% 0%;
 }
 
 .projects .projects-container .project {

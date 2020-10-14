@@ -14,6 +14,7 @@ export default function App() {
       <Skills />
       <Edu />
       <Projects />
+      <div className='spacer'></div>
     </div>
   );
 }

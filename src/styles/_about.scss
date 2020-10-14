@@ -6,19 +6,19 @@
   background-color: $color-white;
   box-shadow: $shadow;
   margin-top: 5%;
-  padding: 2% 0% 2% 0%;
+  padding: $outer-padding;
 
   .about-header {
     font-size: 2.5rem;
     font-family: $font-secondary;
-    margin-left: 5%;
+    margin-left: $margin-left;
   }
 
   .about-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2% 5% 2% 5%;
+    padding: 2% 5% 2% 5%;
 
     .about-img {
       width: 18vw;

@@ -4,40 +4,38 @@
   width: 65%;
   color: $color-black;
   background-color: $color-white;
-  box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 2%;
-  padding: 2% 0% 3% 0%;
+  box-shadow: $shadow;
+  margin-top: $margin-top;
+  padding: $outer-padding;
 
   .edu-header {
     font-family: $font-secondary;
     font-size: 2.5rem;
-    margin-left: 5%;
+    margin-left: $margin-left;
   }
 
   .edu-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2% 0% 2% 0%;
+    padding: $inner-padding;
 
     .edu-item {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      font-family: $font-primary;
 
       .sm {
-        font-family: $font-primary;
         font-size: 1rem;
       }
       
       .lg {
-        font-family: $font-primary;
         font-size: 2rem;
       }
       
-      .md{
-        font-family: $font-primary;
+      .md {
         font-size: 1.25rem;
       }
     }
