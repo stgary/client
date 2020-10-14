@@ -20,7 +20,7 @@ export default function Edu() {
         <div className='edu-item'>
           <p className='sm'>2019-2020</p>
           <p className='lg'>Lambda School</p>
-          <p className='md'>Full Stack Dev</p>
+          <p className='md'>Full Stack Development</p>
         </div>
       </div>
     </div>

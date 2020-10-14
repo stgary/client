@@ -5,6 +5,8 @@
   color: $color-black;
   background-color: $color-white;
   box-shadow: $shadow;
+  margin-top: 5%;
+  padding: 2% 0% 2% 0%;
 
   .about-header {
     font-size: 2.5rem;
@@ -19,12 +21,20 @@
     margin: 2% 5% 2% 5%;
 
     .about-img {
-      width: 15vw;
+      width: 18vw;
+      margin-left: 5%;
+      box-shadow: $shadow;
     }
 
     .about-para {
       font-family: $font-primary;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
+      margin: 2% 5% 2% 5%;
+      line-height: 2rem;
+
+      .para {
+        padding: 1%;
+      }
     }
   }
 }

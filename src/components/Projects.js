@@ -1,5 +1,9 @@
 import React from 'react'
 
+import Login from '../img/login.png';
+import Chat from '../img/chat.jpg';
+import Habit from '../img/habit.png';
+
 export default function Projects() {
   return (
     <div className='projects'>
@@ -8,25 +12,25 @@ export default function Projects() {
       </div>
       <div className='projects-container'>
         <div className='project'>
-          <p className='project-title'>MaterialUI</p>
           <a href='/'>
-            <img className='project-img' src={} alt='material ui' />
+            <img className='project-img' src={Login} alt='material ui' />
           </a>
+          <p className='project-title'>MaterialUI</p>
           <p className='project-desc'>Login and Sign up page made with MaterialUI</p>
         </div>
         <div className='project'>
-          <p className='project-title'>Realtime Chat Application</p>
           <a href='https://chat-app-fgcfhrvdn.vercel.app/'>
-            <img className='project-img' src={} alt='realtime chat application' />
+            <img className='project-img' src={Chat} alt='realtime chat application' />
           </a>
+          <p className='project-title'>Realtime Chat Application</p>
           <p className='project-desc'>React, Express, Node and Socket.IO</p>
         </div>
         <div className='project'>
-          <p className='project-title'>Habit Tracker and Scheduler</p>
           <a href='/'>
-            <img className='project-img' src={} alt='material ui' />
+            <img className='project-img' src={Habit} alt='material ui' />
           </a>
-          <p className='project-desc'>Productivity app made with Node, Express and React</p>
+          <p className='project-title'>Productivity App</p>
+          <p className='project-desc'>React, Express and Node</p>
         </div>
       </div>
     </div>

@@ -10,12 +10,12 @@ export default function About() {
       <div className='about-container'>
         <img className='about-img' src={Profile} alt='profile for stephen gary' />
         <div className='about-para'>
-          <p> 
+          <p className='para'> 
             Full stack developer who's passionate about creating intuitive 
             simple solutions to complex problems. I've worked in multiple 
             industries with distinct roles and had a great amount of success.
           </p>
-          <p>
+          <p className='para'>
             I'm a tireless seeker of knowledge, an occasional purveyor 
             of wisdom and as luck would have it I'm available for hire.    
           </p>

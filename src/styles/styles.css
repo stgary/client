@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 html, body {
-  background-image: url("../img/pic090.png");
+  background-image: url("../img/bg001.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +15,22 @@ html, body {
   padding: 0px;
   overflow-x: hidden;
   font-size: 62.5%;
+}
+
+html #root .top, body #root .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -83,7 +102,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Alegreya", serif;
-  color: #d7eee8;
+  color: #c0c0c0;
 }
 
 .header .header-name {
@@ -111,9 +130,11 @@ table {
 .about {
   width: 65%;
   color: #333333;
-  background-color: #d7eee8;
+  background-color: #c0c0c0;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 5%;
+  padding: 2% 0% 2% 0%;
 }
 
 .about .about-header {
@@ -136,11 +157,172 @@ table {
 }
 
 .about .about-container .about-img {
-  width: 15vw;
+  width: 18vw;
+  margin-left: 5%;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
 }
 
 .about .about-container .about-para {
   font-family: "Alegreya", serif;
+  font-size: 1.25rem;
+  margin: 2% 5% 2% 5%;
+  line-height: 2rem;
+}
+
+.about .about-container .about-para .para {
+  padding: 1%;
+}
+
+.skills {
+  width: 65%;
+  color: #333333;
+  background-color: #c0c0c0;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 2%;
+  padding: 2% 0% 3% 0%;
+}
+
+.skills .skills-header {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  margin: 2% 5% 2% 5%;
+}
+
+.skills .skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 0% 2% 0%;
+}
+
+.skills .skills-container .skills-item {
+  font-size: 1.5em;
+  font-family: "Alegreya", serif;
+}
+
+.edu {
+  width: 65%;
+  color: #333333;
+  background-color: #c0c0c0;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 2%;
+  padding: 2% 0% 3% 0%;
+}
+
+.edu .edu-header {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 5%;
+}
+
+.edu .edu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 0% 2% 0%;
+}
+
+.edu .edu-container .edu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.edu .edu-container .edu-item .sm {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+}
+
+.edu .edu-container .edu-item .lg {
+  font-family: "Alegreya", serif;
+  font-size: 2rem;
+}
+
+.edu .edu-container .edu-item .md {
+  font-family: "Alegreya", serif;
+  font-size: 1.25rem;
+}
+
+.projects {
+  width: 65%;
+  color: #333333;
+  background-color: #c0c0c0;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 2%;
+  padding: 2% 0% 3% 0%;
+}
+
+.projects .projects-header {
+  font-size: 2.5rem;
+  margin-left: 5%;
+  font-family: "Oswald", sans-serif;
+}
+
+.projects .projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2% 5% 2% 5%;
+}
+
+.projects .projects-container .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .projects-container .project .project-title {
+  font-family: "Alegreya", serif;
   font-size: 1.5rem;
+}
+
+.projects .projects-container .project a .project-img {
+  width: 18vw;
+}
+
+.projects .projects-container .project .project-desc {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */

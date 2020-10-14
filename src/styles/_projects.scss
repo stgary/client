@@ -1,8 +1,12 @@
 @import './variables';
 
 .projects {
+  width: 65%;
   color: $color-black;
   background-color: $color-white;
+  box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 2%;
+  padding: 2% 0% 3% 0%;
 
   .projects-header {
     font-size: 2.5rem;
@@ -24,12 +28,12 @@
 
       .project-title {
         font-family: $font-primary;
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
       
       a {
         .project-img {
-         width: 15vw; 
+         width: 18vw; 
         }
       }
 

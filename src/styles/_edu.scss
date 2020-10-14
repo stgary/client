@@ -1,8 +1,12 @@
-@import '../variables';
+@import './variables';
 
 .edu {
+  width: 65%;
   color: $color-black;
   background-color: $color-white;
+  box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 2%;
+  padding: 2% 0% 3% 0%;
 
   .edu-header {
     font-family: $font-secondary;
@@ -25,19 +29,16 @@
       .sm {
         font-family: $font-primary;
         font-size: 1rem;
-        margin: 0;
       }
       
       .lg {
         font-family: $font-primary;
         font-size: 2rem;
-        margin: 0;
       }
       
       .md{
         font-family: $font-primary;
-        font-size: 1rem;
-        margin: 0;
+        font-size: 1.25rem;
       }
     }
   }
