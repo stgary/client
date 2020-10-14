@@ -1,0 +1,55 @@
+@import './variables';
+
+.work {
+  width: 70%;
+  color: $color-black;
+  background-color: $color-white;
+  box-shadow: $shadow;
+  margin-top: $margin-top;
+  padding: $outer-padding;
+
+  .work-header {
+    font-family: $font-secondary;
+    font-size: 2.5rem;
+    margin-left: $margin-left;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    padding: $inner-padding;
+
+    .work-group {
+      display: flex;
+      margin: 2% 10% 2% 10%;
+
+      .work-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: $font-primary;
+        width: 30%;
+
+        .sm {
+          font-size: 1rem;
+        }
+        
+        .lg {
+          font-size: 2rem;
+        }
+        
+        .md {
+          font-size: 1.25rem;
+        }
+      }
+
+      .work-para {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        font-size: 1.25rem;
+        padding-top: 2%;
+      }
+    }
+  }
+}

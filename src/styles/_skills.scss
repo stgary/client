@@ -1,7 +1,7 @@
 @import './variables';
 
 .skills {
-  width: 65%;
+  width: 70%;
   color: $color-black;
   background-color: $color-white;
   box-shadow: $shadow;
@@ -16,7 +16,7 @@
 
   .skills-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: $inner-padding;
 

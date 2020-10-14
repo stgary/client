@@ -14,8 +14,8 @@ export default function Skills() {
         </div>
         <div className='skills-item'>
           <p>JavaScript</p>
-          <p>HTML</p>
-          <p>CSS</p>
+          <p>HTML5</p>
+          <p>CSS3</p>
         </div>
         <div className='skills-item'>
           <p>React</p>

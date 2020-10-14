@@ -1,7 +1,7 @@
 @import './variables';
 
 .about {
-  width: 65%;
+  width: 70%;
   color: $color-black;
   background-color: $color-white;
   box-shadow: $shadow;
@@ -12,28 +12,39 @@
     font-size: 2.5rem;
     font-family: $font-secondary;
     margin-left: $margin-left;
+    display: flex;
+
+    .cv {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-right: 5%;
+      
+      .dl {
+        margin-left: 2%;
+      }
+    }
   }
 
   .about-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2% 5% 2% 5%;
+    padding: 5% 5% 2% 5%;
 
     .about-img {
-      width: 18vw;
-      margin-left: 5%;
-      box-shadow: $shadow;
+      width: 20vw;
+      box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
     }
 
     .about-para {
       font-family: $font-primary;
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       margin: 2% 5% 2% 5%;
       line-height: 2rem;
 
       .para {
-        padding: 1%;
+        padding-bottom: 3%;
       }
     }
   }

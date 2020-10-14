@@ -1,7 +1,7 @@
 @import './variables';
 
 .projects {
-  width: 65%;
+  width: 70%;
   color: $color-black;
   background-color: $color-white;
   box-shadow: $shadow;
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: $inner-padding;
+    padding: 4% 2% 2% 2%;
 
     .project {
       display: flex;

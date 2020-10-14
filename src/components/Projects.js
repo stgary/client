@@ -16,7 +16,7 @@ export default function Projects() {
             <img className='project-img' src={Login} alt='material ui' />
           </a>
           <p className='project-title'>MaterialUI</p>
-          <p className='project-desc'>Login and Sign up page made with MaterialUI</p>
+          <p className='project-desc'>Login and Sign up page</p>
         </div>
         <div className='project'>
           <a href='https://chat-app-fgcfhrvdn.vercel.app/'>
@@ -30,7 +30,7 @@ export default function Projects() {
             <img className='project-img' src={Habit} alt='material ui' />
           </a>
           <p className='project-title'>Productivity App</p>
-          <p className='project-desc'>React, Express and Node</p>
+          <p className='project-desc'>React, Express, Node and PostgreSql</p>
         </div>
       </div>
     </div>

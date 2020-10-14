@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 html, body {
   background-image: url("../img/bg001.jpg");
   background-position: center;
@@ -105,16 +106,19 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Alegreya", serif;
+  font-family: "Oswald", sans-serif;
   color: #c0c0c0;
+  margin-top: 8%;
 }
 
 .header .header-name {
-  font-size: 3rem;
+  font-size: 5rem;
+  margin-bottom: 5%;
 }
 
 .header .header-title {
   font-size: 1.5rem;
+  margin-bottom: 5%;
 }
 
 .header .icon-container {
@@ -124,15 +128,16 @@ table {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 25%;
+  width: 100%;
 }
 
 .header .icon-container .icon {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  color: #c0c0c0;
 }
 
 .about {
-  width: 65%;
+  width: 70%;
   color: #333333;
   background-color: #c0c0c0;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
@@ -145,6 +150,24 @@ table {
   font-size: 2.5rem;
   font-family: "Oswald", sans-serif;
   margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-header .cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  margin-right: 5%;
+}
+
+.about .about-header .cv .dl {
+  margin-left: 2%;
 }
 
 .about .about-container {
@@ -157,29 +180,28 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2% 5% 2% 5%;
+  padding: 5% 5% 2% 5%;
 }
 
 .about .about-container .about-img {
-  width: 18vw;
-  margin-left: 5%;
-  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  width: 20vw;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
 }
 
 .about .about-container .about-para {
   font-family: "Alegreya", serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin: 2% 5% 2% 5%;
   line-height: 2rem;
 }
 
 .about .about-container .about-para .para {
-  padding: 1%;
+  padding-bottom: 3%;
 }
 
 .skills {
-  width: 65%;
+  width: 70%;
   color: #333333;
   background-color: #c0c0c0;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
@@ -198,9 +220,8 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -213,7 +234,7 @@ table {
 }
 
 .edu {
-  width: 65%;
+  width: 70%;
   color: #333333;
   background-color: #c0c0c0;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
@@ -270,7 +291,7 @@ table {
 }
 
 .projects {
-  width: 65%;
+  width: 70%;
   color: #333333;
   background-color: #c0c0c0;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
@@ -295,7 +316,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 4% 0% 2% 0%;
+  padding: 4% 2% 2% 2%;
 }
 
 .projects .projects-container .project {
@@ -326,5 +347,78 @@ table {
 .projects .projects-container .project .project-desc {
   font-family: "Alegreya", serif;
   font-size: 1rem;
+}
+
+.work {
+  width: 70%;
+  color: #333333;
+  background-color: #c0c0c0;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 2%;
+  padding: 2% 0% 4% 0%;
+}
+
+.work .work-header {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 5%;
+}
+
+.work .work-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4% 0% 2% 0%;
+}
+
+.work .work-container .work-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2% 10% 2% 10%;
+}
+
+.work .work-container .work-group .work-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: "Alegreya", serif;
+  width: 30%;
+}
+
+.work .work-container .work-group .work-item .sm {
+  font-size: 1rem;
+}
+
+.work .work-container .work-group .work-item .lg {
+  font-size: 2rem;
+}
+
+.work .work-container .work-group .work-item .md {
+  font-size: 1.25rem;
+}
+
+.work .work-container .work-group .work-para {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.25rem;
+  padding-top: 2%;
 }
 /*# sourceMappingURL=styles.css.map */
