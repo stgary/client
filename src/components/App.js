@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Edu from './Edu';
 import Projects from './Projects';
 import Work from './Work';
+import Contact from './Contact';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Work />
       <Projects />
       <Skills />
+      <Contact />
       <div className='spacer'></div>
     </div>
   );

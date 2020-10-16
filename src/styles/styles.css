@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
 html, body {
   background-image: url("../img/bg001.jpg");
   background-position: center;
@@ -166,7 +167,8 @@ table {
   margin-right: 5%;
 }
 
-.about .about-header .cv .dl {
+.about .about-header .cv a {
+  color: #333333;
   margin-left: 2%;
 }
 
@@ -420,5 +422,141 @@ table {
           justify-content: center;
   font-size: 1.25rem;
   padding-top: 2%;
+}
+
+.contact {
+  width: 70%;
+  color: #333333;
+  background-color: #c0c0c0;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  margin-top: 2%;
+  padding: 2% 0% 4% 0%;
+}
+
+.contact .contact-header {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 5%;
+}
+
+.contact .contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4% 0% 2% 0%;
+}
+
+.contact .contact-info .contact-container {
+  width: 60%;
+}
+
+.contact .contact-info .contact-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-info .contact-container form .error {
+  color: #be2a2a;
+}
+
+.contact .contact-info .contact-container form input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #9a9a9a;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Alegreya", serif;
+  background-color: #f8f8f8;
+}
+
+.contact .contact-info .contact-container form input:focus {
+  outline: none !important;
+  border: 2px solid #626364;
+}
+
+.contact .contact-info .contact-container form textarea {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #9a9a9a;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Alegreya", serif;
+  background-color: #f8f8f8;
+}
+
+.contact .contact-info .contact-container form textarea:focus {
+  outline: none !important;
+  border: 2px solid #626364;
+}
+
+.contact .contact-info .contact-container form .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+}
+
+.contact .contact-info .contact-container form .btn-container button {
+  background-color: #5c5c5c;
+  border: none;
+  color: #fff;
+  padding: 10px 26px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Alegreya", serif;
+}
+
+.contact .contact-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  font-family: "Alegreya", serif;
+  font-size: 1.5rem;
+}
+
+.contact .contact-info .info .user-icon {
+  font-size: 3rem;
+}
+
+.contact .contact-info .info p {
+  margin-bottom: 4%;
+}
+
+.contact .contact-info .info .me {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+}
+
+.contact .contact-info .info .relocate {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=styles.css.map */
