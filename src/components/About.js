@@ -9,7 +9,9 @@ export default function About() {
   return (
     <div className='about'>
       <div className='about-header'>
-        <div className='about-title'>About</div>
+        <div className='about-title'>
+          About
+        </div>
         <div className='cv'>CV 
           <a href={CV} download>
             <FontAwesomeIcon className='dl' icon={faDownload} />

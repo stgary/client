@@ -444,6 +444,12 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 4% 0% 2% 0%;
 }
 
@@ -469,7 +475,7 @@ table {
 }
 
 .contact .contact-info .contact-container form input {
-  width: 80%;
+  width: 90%;
   padding: 12px 20px;
   margin: 5px 0;
   display: inline-block;
@@ -487,7 +493,7 @@ table {
 }
 
 .contact .contact-info .contact-container form textarea {
-  width: 80%;
+  width: 90%;
   padding: 12px 20px;
   margin: 5px 0;
   display: inline-block;
@@ -511,11 +517,11 @@ table {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 80%;
+  width: 90%;
 }
 
 .contact .contact-info .contact-container form .btn-container button {
-  background-color: #5c5c5c;
+  background-color: #464646;
   border: none;
   color: #fff;
   padding: 10px 26px;
@@ -540,6 +546,7 @@ table {
   width: 30%;
   font-family: "Alegreya", serif;
   font-size: 1.5rem;
+  padding-bottom: 5%;
 }
 
 .contact .contact-info .info .user-icon {
@@ -547,7 +554,7 @@ table {
 }
 
 .contact .contact-info .info p {
-  margin-bottom: 4%;
+  margin-bottom: 1%;
 }
 
 .contact .contact-info .info .me {
@@ -558,5 +565,46 @@ table {
 .contact .contact-info .info .relocate {
   font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
+}
+
+.contact .message-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 2%;
+  line-height: 1.25rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+  color: rgba(51, 51, 51, 0.473);
+}
+
+.contact .message-display .wait-message {
+  width: 85%;
+}
+
+.contact .message-display .confirmation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+}
+
+.contact .message-display .failure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */

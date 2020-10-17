@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 
@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
+  const [ confirm, setConfirm ] = useState(false);
+  const [ err, setErr ] = useState(false);
   const { register, handleSubmit, errors, reset } = useForm();
   const END_POINT = 'https://resume-bkend.herokuapp.com/send';
   
@@ -13,12 +15,10 @@ export default function Contact() {
     axios 
       .post(END_POINT, data)
         .then(res => {
-          console.log(res.data);
-          alert('Your message has been sent!');
+          setConfirm(!confirm);
         })
         .catch(error => {
-          console.log(error.message);
-          alert('oops! there was an error. Please call, text or email me, Thanks.');
+          setErr(!err);
         });
 
     reset();
@@ -35,10 +35,10 @@ export default function Contact() {
             <input
               name='name'
               type='text'
-              placeholder='You name...'
+              placeholder='Your name...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.name && 'Name is required'}</p>
+            <p className='error'>{errors.name && 'Your name is required'}</p>
 
             <input
               name='email'
@@ -46,7 +46,7 @@ export default function Contact() {
               placeholder='Your email...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.email && 'Email is required'}</p>
+            <p className='error'>{errors.email && 'Your email is required'}</p>
 
             <input
               name='subject'
@@ -54,7 +54,7 @@ export default function Contact() {
               placeholder='Subject...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.subject && 'Subject is required'}</p>
+            <p className='error'>{errors.subject && 'A subject is required'}</p>
 
             <textarea
               name='message'
@@ -62,7 +62,7 @@ export default function Contact() {
               placeholder='Message...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.message && 'Message is required'}</p>
+            <p className='error'>{errors.message && 'A message is required'}</p>
 
             <div className='btn-container'>
               <button
@@ -82,6 +82,26 @@ export default function Contact() {
           <p className='detroit'>Detroit, MI</p>
           <p className='relocate'>I am willing to relocate</p>
         </div>
+      </div>
+      <div className='message-display'>
+        {!confirm && !err  && 
+          <div className='wait-message'>
+            This app is deployed using a Heroku free account which gets placed into idle. 
+            The response time can be delayed up to 14 seconds. There will be a corresponding message upon failure or success.
+          </div>
+        }
+
+        {confirm && 
+          <div className='confirmation'>
+            Message Sent!
+          </div>
+        }
+
+        {err && 
+          <div className='failure'>
+            Failure to send. Please call, text or email me using the contact info above.
+          </div>
+        }
       </div>
     </div>
   )
