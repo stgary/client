@@ -5,20 +5,23 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
+const END_POINT = process.env.END_POINT || 'https://resume-bkend.herokuapp.com/send';
+
 export default function Contact() {
   const [ confirm, setConfirm ] = useState(false);
   const [ err, setErr ] = useState(false);
   const { register, handleSubmit, errors, reset } = useForm();
-  const END_POINT = 'https://resume-bkend.herokuapp.com/send';
   
   const onSubmit = data => {
     axios 
       .post(END_POINT, data)
         .then(res => {
           setConfirm(!confirm);
+          console.log(res.data);
         })
         .catch(error => {
           setErr(!err);
+          console.log(error.message);
         });
 
     reset();

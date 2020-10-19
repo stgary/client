@@ -1,5 +1,5 @@
-import React from 'react'
-import Profile from '../img/pic42.png'
+import React from 'react';
+import Profile from '../img/pic42.png';
 import CV  from '../pdf/sg.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
