@@ -1,12 +1,12 @@
 @import './variables';
 
-@import './globals';
-@import './reset';
+@import './normalize/globals';
+@import './normalize/reset';
 
-@import './header';
-@import './about';
-@import './skills';
-@import './edu';
-@import './projects';
-@import './work';
-@import './contact';
+@import './components/header';
+@import './components/about';
+@import './components/skills';
+@import './components/edu';
+@import './components/projects';
+@import './components/work';
+@import './components/contact';
