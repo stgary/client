@@ -30,43 +30,47 @@ export default function Contact() {
   return (
     <div className='contact'>
       <div className='contact-header'>
-        Contact
+        <div className='contact-heading'>
+          Contact
+        </div>
+        <div className='contact-icon'>
+          <FontAwesomeIcon className='user-icon' icon={faUserCircle} />
+        </div>
       </div>
       <div className='contact-info'>
         <div className='contact-container'>
           <form onSubmit={handleSubmit(onSubmit)}>
-
-            <p className='error'>{errors.name && 'Name is a required field!'}</p>
             <input
               name='name'
               type='text'
               placeholder='Your name...'
               ref={register({ required: true })}
             />
+            <p className='error'>{errors.name && 'Name is a required field!'}</p>
 
-            <p className='error'>{errors.email && 'Email is a required field!'}</p>
             <input
               name='email'
               type='email'
               placeholder='Your email...'
               ref={register({ required: true })}
             />
+            <p className='error'>{errors.email && 'Email is a required field!'}</p>
 
-            <p className='error'>{errors.subject && 'Subject is a required field!'}</p>
             <input
               name='subject'
               type='text'
               placeholder='Subject...'
               ref={register({ required: true })}
             />
+            <p className='error'>{errors.subject && 'Subject is a required field!'}</p>
 
-            <p className='error'>{errors.message && 'Message is a required field'}</p>
             <textarea
               name='message'
               type='text'
               placeholder='Message...'
               ref={register({ required: true })}
             />
+            <p className='error'>{errors.message && 'Message is a required field'}</p>
 
             <div className='btn-container'>
               <button
@@ -79,7 +83,6 @@ export default function Contact() {
           </form>
         </div>
         <div className='info'>
-          <FontAwesomeIcon className='user-icon' icon={faUserCircle} />
           <p className='me'>Stephen Gary</p>
           <p>(615) 678-3231</p>
           <p>sgary0@protonmail.com</p>
@@ -98,7 +101,7 @@ export default function Contact() {
 
         {confirm && 
           <div className='confirmation'>
-            Message received! Thanks for reaching out, expect a timely response.  
+            Message received! I'll follow up shortly.  
           </div>
         }
 

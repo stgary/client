@@ -5,18 +5,6 @@
   .about-header {
     display: flex;
     @include header;
-
-    .cv {
-      display: flex;
-      justify-content: flex-end;
-      width: 100%;
-      margin-right: 5%;
-      
-      a {
-        color: $black;
-        margin-left: 2%;
-      }
-    }
   }
 
   .about-container {
@@ -24,9 +12,10 @@
     padding: 5% 5% 2% 5%;
 
     .about-img {
-      width: 20vw;
+      width: 17vw;
       box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
       border-radius: 8px;
+      margin-left: 5%;
     }
 
     .about-para {

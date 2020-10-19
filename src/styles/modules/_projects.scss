@@ -19,17 +19,22 @@
       .project-title {
         font-family: $heading;
         font-size: 1.5rem;
+        font-weight: 700;
+        padding-bottom: 2%;
       }
       
       a {
+        padding-bottom: 3%;
+
         .project-img {
-         width: 18vw; 
+         width: 21vw; 
         }
       }
 
       .project-desc {
         font-family: $paragraph;
         font-size: 1rem;
+        font-weight: 700;
       }
     }
   }

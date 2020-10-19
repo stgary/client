@@ -7,17 +7,17 @@ export default function Skills() {
         Skills
       </div>
       <div className='skills-container'>
-        <div className='skill-item'>
+        <div className='skills-item'>
           <p>Node.js</p>
           <p>Express</p>
           <p>Python</p>
         </div>
-        <div className='skill-item'>
+        <div className='skills-item'>
           <p>CSS3</p>
           <p>JavaScript</p>
           <p>HTML5</p>
         </div>
-        <div className='skill-item'>
+        <div className='skills-item'>
           <p>React</p>
           <p>Redux</p>
           <p>Less</p>

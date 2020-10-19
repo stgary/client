@@ -13,9 +13,8 @@
 
     .work-group {
       display: flex;
-      margin: 1% 10% 2% 10%;
-      border-bottom: 1px solid $black;
-      padding-bottom: 2%;
+      margin: 1% 10% 0% 10%;
+      padding-bottom: 1%;
 
       .work-item {
         display: flex;
@@ -24,26 +23,23 @@
         width: 30%;
 
         .year {
-          font-size: 1rem;
-          font-family: $date;
+          @include year;
         }
         
         .company {
-          font-size: 2rem;
-          font-family: $heading;
+          @include heading;
         }
         
         .position {
-          font-size: 1.25rem;
-          font-family: $sub-heading;
+          @include sub-heading;
         }
       }
 
       .work-para {
         @include justify;
+        align-items: flex-end;
         width: 70%;
         font-size: 1.25rem;
-        padding-top: 2%;
         font-family: $paragraph;
         margin-left: 2%;
       }

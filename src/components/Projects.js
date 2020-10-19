@@ -12,21 +12,21 @@ export default function Projects() {
       </div>
       <div className='projects-container'>
         <div className='project'>
-          <a href='/' title='login page'>
+          <a href='/' target="_blank" rel="noopener noreferrer" title='login page'>
             <img className='project-img' src={Login} alt='material ui' />
           </a>
           <p className='project-title'>MaterialUI</p>
           <p className='project-desc'>Login and Sign up page</p>
         </div>
         <div className='project'>
-          <a href='https://chat-app-fgcfhrvdn.vercel.app/' title='chat application'>
+          <a href='https://chat-app-fgcfhrvdn.vercel.app/' target="_blank" rel="noopener noreferrer" title='chat application'>
             <img className='project-img' src={Chat} alt='realtime chat application' />
           </a>
           <p className='project-title'>Realtime Chat Application</p>
           <p className='project-desc'>React, Express, Node and Socket.IO</p>
         </div>
         <div className='project'>
-          <a href='/' title='productivity application'>
+          <a href='/' target="_blank" rel="noopener noreferrer" title='productivity application'>
             <img className='project-img' src={Habit} alt='material ui' />
           </a>
           <p className='project-title'>Productivity App</p>

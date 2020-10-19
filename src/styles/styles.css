@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Basic&family=Karla&family=Noto+Sans&family=Oswald&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Karla&family=Lora:wght@700&family=Noto+Sans&family=Oswald&family=Source+Sans+Pro&display=swap");
 html, body {
   background-image: url("../img/bg001.jpg");
   background-position: center;
@@ -90,29 +90,31 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Oswald", sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lora", serif;
   color: #eaeaea;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 
 .header .header-name {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 5%;
+  font-weight: 600;
 }
 
 .header .header-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 5%;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .header .icon-container {
@@ -144,25 +146,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 2.5rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-family: "Lora", serif;
   margin-left: 5%;
-}
-
-.about .about-header .cv {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 100%;
-  margin-right: 5%;
-}
-
-.about .about-header .cv a {
-  color: #333333;
-  margin-left: 2%;
 }
 
 .about .about-container {
@@ -179,14 +165,15 @@ table {
 }
 
 .about .about-container .about-img {
-  width: 20vw;
+  width: 17vw;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
   border-radius: 8px;
+  margin-left: 5%;
 }
 
 .about .about-container .about-para {
-  font-family: "Karla", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 1.5rem;
   margin: 2% 5% 2% 5%;
   line-height: 2rem;
@@ -207,8 +194,8 @@ table {
 }
 
 .skills .skills-header {
-  font-size: 2.5rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-family: "Lora", serif;
   margin-left: 5%;
 }
 
@@ -216,8 +203,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -226,8 +214,8 @@ table {
 
 .skills .skills-container .skills-item {
   font-size: 1.5em;
-  font-family: "Oswald", sans-serif;
-  width: 25%;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -235,26 +223,6 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.skills .skills-container .skill-item {
-  font-size: 1.5em;
-  font-family: "Oswald", sans-serif;
-  border-right: 1px solid #333333;
-  width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .edu {
@@ -268,8 +236,8 @@ table {
 }
 
 .edu .edu-header {
-  font-size: 2.5rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-family: "Lora", serif;
   margin-left: 5%;
 }
 
@@ -277,8 +245,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -289,27 +258,26 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #333333;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .edu .edu-container .edu-item .year {
-  font-size: 1rem;
+  font-size: 1em;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .edu .edu-container .edu-item .school {
-  font-size: 2rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-family: "Lora", serif;
 }
 
 .edu .edu-container .edu-item .major {
@@ -328,8 +296,8 @@ table {
 }
 
 .projects .projects-header {
-  font-size: 2.5rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-family: "Lora", serif;
   margin-left: 5%;
 }
 
@@ -350,30 +318,37 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .projects .projects-container .project .project-title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Lora", serif;
   font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 2%;
+}
+
+.projects .projects-container .project a {
+  padding-bottom: 3%;
 }
 
 .projects .projects-container .project a .project-img {
-  width: 18vw;
+  width: 21vw;
 }
 
 .projects .projects-container .project .project-desc {
-  font-family: "Karla", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .work {
@@ -387,8 +362,8 @@ table {
 }
 
 .work .work-header {
-  font-size: 2.5rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-family: "Lora", serif;
   margin-left: 5%;
 }
 
@@ -407,9 +382,8 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 1% 10% 2% 10%;
-  border-bottom: 1px solid #333333;
-  padding-bottom: 2%;
+  margin: 1% 10% 0% 10%;
+  padding-bottom: 1%;
 }
 
 .work .work-container .work-group .work-item {
@@ -427,13 +401,13 @@ table {
 }
 
 .work .work-container .work-group .work-item .year {
-  font-size: 1rem;
+  font-size: 1em;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .work .work-container .work-group .work-item .company {
-  font-size: 2rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-family: "Lora", serif;
 }
 
 .work .work-container .work-group .work-item .position {
@@ -442,16 +416,18 @@ table {
 }
 
 .work .work-container .work-group .work-para {
-  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 70%;
   font-size: 1.25rem;
-  padding-top: 2%;
-  font-family: "Karla", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   margin-left: 2%;
 }
 
@@ -466,21 +442,43 @@ table {
 }
 
 .contact .contact-header {
-  font-size: 2.5rem;
-  font-family: "Oswald", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  font-family: "Lora", serif;
   margin-left: 5%;
+}
+
+.contact .contact-header .contact-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  margin-right: 5%;
+}
+
+.contact .contact-header .contact-icon .user-icon {
+  font-size: 3rem;
 }
 
 .contact .contact-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   padding: 4% 0% 2% 0%;
 }
 
@@ -496,22 +494,22 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact .contact-info .contact-container form .error {
-  color: #fff;
-  background-color: #da1f1f;
-  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "Karla", sans-serif;
+  color: #fff;
+  background-color: #da1f1f;
+  width: 90%;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -525,13 +523,13 @@ table {
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Karla", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   background-color: #f8f8f8;
 }
 
 .contact .contact-info .contact-container form input:focus {
   outline: none !important;
-  border: 2px solid #142334;
+  border: 2px solid #5a5a5a;
 }
 
 .contact .contact-info .contact-container form textarea {
@@ -543,27 +541,28 @@ table {
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Karla", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   background-color: #f8f8f8;
 }
 
 .contact .contact-info .contact-container form textarea:focus {
   outline: none !important;
-  border: 2px solid #142334;
+  border: 2px solid #5a5a5a;
 }
 
 .contact .contact-info .contact-container form .btn-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 90%;
 }
 
 .contact .contact-info .contact-container form .btn-container button {
-  background-color: #142334;
+  background-color: #2f4769;
+  width: 30%;
   border: none;
   color: #fff;
   padding: 10px 26px;
@@ -571,7 +570,7 @@ table {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 4px;
-  font-family: "Karla", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 1rem;
 }
 
@@ -586,27 +585,26 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40%;
   font-size: 1.25rem;
-  font-family: "Karla", sans-serif;
-}
-
-.contact .contact-info .info .user-icon {
-  font-size: 3rem;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 3%;
 }
 
 .contact .contact-info .info p {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .contact .contact-info .info .me {
-  font-family: "Oswald", sans-serif;
+  font-family: "Lora", serif;
   font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .contact .contact-info .info .relocate {
-  font-family: "Oswald", sans-serif;
+  font-family: "Lora", serif;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .contact .message-display {
@@ -638,7 +636,6 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 2rem;
 }
 
 .contact .message-display .failure {
@@ -648,5 +645,24 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.nav .item {
+  text-decoration: none;
+  padding: 1% 2% 0% 0%;
+  font-size: 1.25rem;
+  color: #eaeaea;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
 }
 /*# sourceMappingURL=styles.css.map */

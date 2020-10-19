@@ -2,18 +2,20 @@
 .header {
   @include align;
   flex-direction: column;
-  font-family: $section-heading;
+  font-family: $heading;
   color: $white;
-  margin-top: 8%;
-
+  margin-top: 4%;
+  
   .header-name {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 5%;
+    font-weight: 600;
   }
 
   .header-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 5%;
+    font-family: $sub-heading;
   }
 
   .icon-container {

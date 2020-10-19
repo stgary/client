@@ -8,28 +8,24 @@
 
   .edu-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: $padding;
 
     .edu-item {
       @include align;
       flex-direction: column;
-      border-bottom: 1px solid $black;
 
       .year {
-        font-size: 1rem;
-        font-family: $date;
+        @include year;
       }
       
       .school {
-        font-size: 2rem;
-        font-family: $heading;
+        @include heading;
       }
       
       .major {
-        font-size: 1.25rem;
-        font-family: $sub-heading;
+        @include sub-heading
       }
     }
   }

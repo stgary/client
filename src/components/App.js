@@ -7,10 +7,12 @@ import Edu from './Edu';
 import Projects from './Projects';
 import Work from './Work';
 import Contact from './Contact';
+import Nav from './Nav';
 
 export default function App() {
   return (
     <div className='top'>
+      <Nav />
       <Header />
       <About />
       <Edu />

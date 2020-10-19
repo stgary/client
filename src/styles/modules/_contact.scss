@@ -3,12 +3,24 @@
   @include box;
 
   .contact-header {
+    display: flex;
     @include header;
 
+    .contact-icon {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-right: 5%;
+
+      .user-icon {
+        font-size: 3rem;
+      }
+    }
   }
 
   .contact-info {
     @include align;
+    flex-direction: column-reverse;
     padding: $padding;
   
     .contact-container {
@@ -17,7 +29,7 @@
       form {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
 
         .error {
           @include justify;
@@ -63,11 +75,12 @@
 
         .btn-container {
          display: flex;
-         justify-content: flex-end;
+         justify-content: center;
          width: 90%;
          
           button {
-            background-color: $dark-blue;
+            background-color: $blue;
+            width: 30%;
             border: none;
             color: #fff;
             padding: 10px 26px;
@@ -86,26 +99,25 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 40%;
       font-size: 1.25rem;
       font-family: $paragraph;
-
-      .user-icon {
-        font-size: 3rem;
-      }
+      font-weight: 700;
+      margin-bottom: 3%;
 
       p {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
       }
 
       .me {
         font-family: $heading;
         font-size: 2.5rem;
+        font-weight: 700;
       }
 
       .relocate {
         font-family: $heading;
         font-size: 1.5rem;
+        font-weight: 700;
       }
     }
   }
