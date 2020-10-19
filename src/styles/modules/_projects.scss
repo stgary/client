@@ -13,10 +13,8 @@
     padding: 4% 2% 2% 2%;
 
     .project {
-      display: flex;
+      @include align;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
 
       .project-title {
         font-family: $heading;

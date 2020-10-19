@@ -13,3 +13,19 @@
     font-family: $section-heading;
     margin-left: 5%;
 }
+
+@mixin justify {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin focus {
+    outline: none !important;
+    border: 2px solid $dark-grey;
+}

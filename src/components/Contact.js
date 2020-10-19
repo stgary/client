@@ -35,38 +35,38 @@ export default function Contact() {
       <div className='contact-info'>
         <div className='contact-container'>
           <form onSubmit={handleSubmit(onSubmit)}>
+
+            <p className='error'>{errors.name && 'Name is a required field!'}</p>
             <input
-              className={errors.name && 'err'}
               name='name'
               type='text'
               placeholder='Your name...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.name && 'Name is a required field!'}</p>
 
+            <p className='error'>{errors.email && 'Email is a required field!'}</p>
             <input
               name='email'
               type='email'
               placeholder='Your email...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.email && 'Email is a required field!'}</p>
 
+            <p className='error'>{errors.subject && 'Subject is a required field!'}</p>
             <input
               name='subject'
               type='text'
               placeholder='Subject...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.subject && 'Subject is a required field!'}</p>
 
+            <p className='error'>{errors.message && 'Message is a required field'}</p>
             <textarea
               name='message'
               type='text'
               placeholder='Message...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.message && 'Message is a required field'}</p>
 
             <div className='btn-container'>
               <button
@@ -91,13 +91,14 @@ export default function Contact() {
         {!confirm && !err  && 
           <div className='wait-message'>
             This app is deployed using a Heroku free account which gets placed into idle. 
-            The response time can be delayed up to 14 seconds. There will be a corresponding message upon failure or success.
+            The response time can be delayed up to 14 seconds. If you want to wait for confirmation 
+            there will be a corresponding message upon failure or success.
           </div>
         }
 
         {confirm && 
           <div className='confirmation'>
-            Message Sent! 
+            Message received! Thanks for reaching out, expect a timely response.  
           </div>
         }
 

@@ -1,9 +1,7 @@
 
 .header {
-  display: flex;
+  @include align;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-family: $section-heading;
   color: $white;
   margin-top: 8%;

@@ -20,9 +20,7 @@
   }
 
   .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include align;
     padding: 5% 5% 2% 5%;
 
     .about-img {

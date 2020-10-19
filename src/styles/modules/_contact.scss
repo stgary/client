@@ -8,9 +8,7 @@
   }
 
   .contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include align;
     padding: $padding;
   
     .contact-container {
@@ -22,11 +20,10 @@
         align-items: flex-end;
 
         .error {
+          @include justify;
           color: #fff;
           background-color: #da1f1f;
           width: 90%;
-          display: flex;
-          justify-content: center;
           font-family: $paragraph;
           font-size: 1rem;
           font-weight: 600;
@@ -44,8 +41,7 @@
           background-color: #f8f8f8;
 
           &:focus {
-            outline: none !important;
-            border: 2px solid $dark-blue;
+            @include focus;
           }
         }
 
@@ -61,8 +57,7 @@
           background-color: #f8f8f8;
         
           &:focus {
-            outline: none !important;
-            border: 2px solid $dark-blue;
+            @include focus;
           }
         }
 
@@ -116,9 +111,7 @@
   }
 
   .message-display {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include align;
     width: 100%;
     margin-top: 2%;
     line-height: 1.25rem;
@@ -131,14 +124,11 @@
     }
 
     .confirmation {
-      display: flex;
-      justify-content: center;
-      font-size: 2rem;
+      @include justify;
     }
 
     .failure {
-      display: flex;
-      justify-content: center;
+      @include justify;
     }
   }
 }

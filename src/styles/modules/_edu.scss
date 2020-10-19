@@ -13,10 +13,8 @@
     padding: $padding;
 
     .edu-item {
-      display: flex;
+      @include align;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
       border-bottom: 1px solid $black;
 
       .year {

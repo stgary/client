@@ -40,9 +40,8 @@
       }
 
       .work-para {
+        @include justify;
         width: 70%;
-        display: flex;
-        justify-content: center;
         font-size: 1.25rem;
         padding-top: 2%;
         font-family: $paragraph;
