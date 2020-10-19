@@ -1,14 +1,19 @@
-@import './typography'; 
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Karla&family=Noto+Sans&family=Oswald&family=Source+Sans+Pro&display=swap');
 
-$font-primary: 'Alegreya', serif;
-$font-secondary: 'Oswald', sans-serif;  
+$section-heading: 'Oswald', sans-serif;
+$heading: 'Oswald', sans-serif;
+$sub-heading: 'Noto Sans', sans-serif;
+$paragraph: 'Karla', sans-serif;
+$date: 'Source Sans Pro', sans-serif;
 
-$color-white:#c0c0c0;
-$color-black: #333333;
+$light-grey:#c0c0c0;
+$dark-grey: #5a5a5a;
+$black: #333333;
+$blue: #2f4769;
+$dark-blue: #142334;
+$red: #7d0404;
+$white: #eaeaea;
 
-$outer-padding: 2% 0% 4% 0%;
-$inner-padding: 4% 0% 2% 0%;
-$margin-top: 2%;
-$margin-left: 5%;
+$padding: 4% 0% 2% 0%;
 
 $shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;

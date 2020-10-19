@@ -1,18 +1,10 @@
-@import '../variables';
 
 .about {
-  width: 70%;
-  color: $color-black;
-  background-color: $color-white;
-  box-shadow: $shadow;
-  margin-top: 5%;
-  padding: $outer-padding;
+  @include box;
 
   .about-header {
-    font-size: 2.5rem;
-    font-family: $font-secondary;
-    margin-left: $margin-left;
     display: flex;
+    @include header;
 
     .cv {
       display: flex;
@@ -21,7 +13,7 @@
       margin-right: 5%;
       
       a {
-        color: $color-black;
+        color: $black;
         margin-left: 2%;
       }
     }
@@ -40,7 +32,7 @@
     }
 
     .about-para {
-      font-family: $font-primary;
+      font-family: $paragraph;
       font-size: 1.5rem;
       margin: 2% 5% 2% 5%;
       line-height: 2rem;

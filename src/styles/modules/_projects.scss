@@ -1,17 +1,9 @@
-@import '../variables';
 
 .projects {
-  width: 70%;
-  color: $color-black;
-  background-color: $color-white;
-  box-shadow: $shadow;
-  margin-top: $margin-top;
-  padding: $outer-padding;
+  @include box;
 
   .projects-header {
-    font-size: 2.5rem;
-    margin-left: $margin-left;
-    font-family: $font-secondary;
+    @include header;
   }
 
   .projects-container {
@@ -27,7 +19,7 @@
       align-items: center;
 
       .project-title {
-        font-family: $font-primary;
+        font-family: $heading;
         font-size: 1.5rem;
       }
       
@@ -38,7 +30,7 @@
       }
 
       .project-desc {
-        font-family: $font-primary;
+        font-family: $paragraph;
         font-size: 1rem;
       }
     }

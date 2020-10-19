@@ -1,12 +1,11 @@
-@import '../variables';
 
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: $font-secondary;
-  color: $color-white;
+  font-family: $section-heading;
+  color: $white;
   margin-top: 8%;
 
   .header-name {
@@ -26,7 +25,7 @@
 
     .icon {
       font-size: 1.5rem;
-      color: $color-white;
+      color: $white;
     }
   }
 }

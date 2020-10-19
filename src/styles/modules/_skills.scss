@@ -1,29 +1,34 @@
-@import '../variables';
 
 .skills {
-  width: 70%;
-  color: $color-black;
-  background-color: $color-white;
-  box-shadow: $shadow;
-  margin-top: $margin-top;
-  padding: $outer-padding;
+  @include box;
 
   .skills-header {
-    font-family: $font-secondary;
-    font-size: 2.5rem;
-    margin-left: $margin-left;
+    @include header;
   }
 
   .skills-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: $inner-padding;
+    padding: $padding;
 
     .skills-item {
       font-size: 1.5em;
-      font-family: $font-primary;
+      font-family: $heading;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
+    .skill-item {
+      font-size: 1.5em;
+      font-family: $heading;
+      border-right: 1px solid $black;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 

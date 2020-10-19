@@ -8,19 +8,19 @@ export default function Edu() {
       </div>
       <div className='edu-container'>
         <div className='edu-item'>
-          <p className='sm'>2007-2009</p>
-          <p className='lg'>MSU</p>
-          <p className='md'>Electrical Tech</p>
+          <p className='year'>2007-2009</p>
+          <p className='school'>MSU</p>
+          <p className='major'>Electrical Tech</p>
         </div>
         <div className='edu-item'>
-          <p className='sm'>2009-2011</p>
-          <p className='lg'>KVCC</p>
-          <p className='md'>Computer Science</p>
+          <p className='year'>2009-2011</p>
+          <p className='school'>KVCC</p>
+          <p className='major'>Computer Science</p>
         </div>
         <div className='edu-item'>
-          <p className='sm'>2019-2020</p>
-          <p className='lg'>Lambda School</p>
-          <p className='md'>Full Stack Development</p>
+          <p className='year'>2019-2020</p>
+          <p className='school'>Lambda School</p>
+          <p className='major'>Full Stack Development</p>
         </div>
       </div>
     </div>

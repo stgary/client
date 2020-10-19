@@ -1,13 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Basic&family=Karla&family=Noto+Sans&family=Oswald&family=Source+Sans+Pro&display=swap");
 html, body {
-  background-image: url("../img/bg001.jpg");
+  background-image: url("../img/bg22.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +101,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Oswald", sans-serif;
-  color: #c0c0c0;
+  color: #eaeaea;
   margin-top: 8%;
 }
 
@@ -134,13 +127,13 @@ table {
 
 .header .icon-container .icon {
   font-size: 1.5rem;
-  color: #c0c0c0;
+  color: #eaeaea;
 }
 
 .about {
   width: 70%;
   color: #333333;
-  background-color: #c0c0c0;
+  background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 5%;
@@ -148,12 +141,12 @@ table {
 }
 
 .about .about-header {
-  font-size: 2.5rem;
-  font-family: "Oswald", sans-serif;
-  margin-left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
+  margin-left: 5%;
 }
 
 .about .about-header .cv {
@@ -193,7 +186,7 @@ table {
 }
 
 .about .about-container .about-para {
-  font-family: "Alegreya", serif;
+  font-family: "Karla", sans-serif;
   font-size: 1.5rem;
   margin: 2% 5% 2% 5%;
   line-height: 2rem;
@@ -206,16 +199,16 @@ table {
 .skills {
   width: 70%;
   color: #333333;
-  background-color: #c0c0c0;
+  background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 2% 0% 4% 0%;
 }
 
 .skills .skills-header {
-  font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
   margin-left: 5%;
 }
 
@@ -233,22 +226,50 @@ table {
 
 .skills .skills-container .skills-item {
   font-size: 1.5em;
-  font-family: "Alegreya", serif;
+  font-family: "Oswald", sans-serif;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills .skills-container .skill-item {
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+  border-right: 1px solid #333333;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .edu {
   width: 70%;
   color: #333333;
-  background-color: #c0c0c0;
+  background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 2% 0% 4% 0%;
 }
 
 .edu .edu-header {
-  font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
   margin-left: 5%;
 }
 
@@ -278,35 +299,38 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Alegreya", serif;
+  border-bottom: 1px solid #333333;
 }
 
-.edu .edu-container .edu-item .sm {
+.edu .edu-container .edu-item .year {
   font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.edu .edu-container .edu-item .lg {
+.edu .edu-container .edu-item .school {
   font-size: 2rem;
+  font-family: "Oswald", sans-serif;
 }
 
-.edu .edu-container .edu-item .md {
+.edu .edu-container .edu-item .major {
   font-size: 1.25rem;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .projects {
   width: 70%;
   color: #333333;
-  background-color: #c0c0c0;
+  background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 2% 0% 4% 0%;
 }
 
 .projects .projects-header {
   font-size: 2.5rem;
-  margin-left: 5%;
   font-family: "Oswald", sans-serif;
+  margin-left: 5%;
 }
 
 .projects .projects-container {
@@ -339,7 +363,7 @@ table {
 }
 
 .projects .projects-container .project .project-title {
-  font-family: "Alegreya", serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -348,23 +372,23 @@ table {
 }
 
 .projects .projects-container .project .project-desc {
-  font-family: "Alegreya", serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
 }
 
 .work {
   width: 70%;
   color: #333333;
-  background-color: #c0c0c0;
+  background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 2% 0% 4% 0%;
 }
 
 .work .work-header {
-  font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
   margin-left: 5%;
 }
 
@@ -383,7 +407,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 2% 10% 2% 10%;
+  margin: 1% 10% 2% 10%;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 2%;
 }
 
 .work .work-container .work-group .work-item {
@@ -397,20 +423,22 @@ table {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  font-family: "Alegreya", serif;
   width: 30%;
 }
 
-.work .work-container .work-group .work-item .sm {
+.work .work-container .work-group .work-item .year {
   font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.work .work-container .work-group .work-item .lg {
+.work .work-container .work-group .work-item .company {
   font-size: 2rem;
+  font-family: "Oswald", sans-serif;
 }
 
-.work .work-container .work-group .work-item .md {
+.work .work-container .work-group .work-item .position {
   font-size: 1.25rem;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .work .work-container .work-group .work-para {
@@ -423,21 +451,23 @@ table {
           justify-content: center;
   font-size: 1.25rem;
   padding-top: 2%;
+  font-family: "Karla", sans-serif;
+  margin-left: 2%;
 }
 
 .contact {
   width: 70%;
   color: #333333;
-  background-color: #c0c0c0;
+  background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 2% 0% 4% 0%;
 }
 
 .contact .contact-header {
-  font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
   margin-left: 5%;
 }
 
@@ -455,7 +485,7 @@ table {
 }
 
 .contact .contact-info .contact-container {
-  width: 60%;
+  width: 50%;
 }
 
 .contact .contact-info .contact-container form {
@@ -466,13 +496,24 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .contact .contact-info .contact-container form .error {
-  color: #be2a2a;
+  color: #fff;
+  background-color: #da1f1f;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .contact .contact-info .contact-container form input {
@@ -484,13 +525,13 @@ table {
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Alegreya", serif;
+  font-family: "Karla", sans-serif;
   background-color: #f8f8f8;
 }
 
 .contact .contact-info .contact-container form input:focus {
   outline: none !important;
-  border: 2px solid #626364;
+  border: 2px solid #142334;
 }
 
 .contact .contact-info .contact-container form textarea {
@@ -502,13 +543,13 @@ table {
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Alegreya", serif;
+  font-family: "Karla", sans-serif;
   background-color: #f8f8f8;
 }
 
 .contact .contact-info .contact-container form textarea:focus {
   outline: none !important;
-  border: 2px solid #626364;
+  border: 2px solid #142334;
 }
 
 .contact .contact-info .contact-container form .btn-container {
@@ -522,7 +563,7 @@ table {
 }
 
 .contact .contact-info .contact-container form .btn-container button {
-  background-color: #464646;
+  background-color: #142334;
   border: none;
   color: #fff;
   padding: 10px 26px;
@@ -530,7 +571,8 @@ table {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 4px;
-  font-family: "Alegreya", serif;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
 }
 
 .contact .contact-info .info {
@@ -544,10 +586,9 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 30%;
-  font-family: "Alegreya", serif;
-  font-size: 1.5rem;
-  padding-bottom: 5%;
+  width: 40%;
+  font-size: 1.25rem;
+  font-family: "Karla", sans-serif;
 }
 
 .contact .contact-info .info .user-icon {
@@ -555,7 +596,7 @@ table {
 }
 
 .contact .contact-info .info p {
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .contact .contact-info .info .me {
@@ -583,7 +624,7 @@ table {
   line-height: 1.25rem;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
-  color: rgba(51, 51, 51, 0.473);
+  color: #333333;
 }
 
 .contact .message-display .wait-message {

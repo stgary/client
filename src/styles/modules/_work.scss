@@ -1,45 +1,41 @@
-@import '../variables';
 
 .work {
-  width: 70%;
-  color: $color-black;
-  background-color: $color-white;
-  box-shadow: $shadow;
-  margin-top: $margin-top;
-  padding: $outer-padding;
+  @include box;
 
   .work-header {
-    font-family: $font-secondary;
-    font-size: 2.5rem;
-    margin-left: $margin-left;
+    @include header;
   }
 
   .work-container {
     display: flex;
     flex-direction: column;
-    padding: $inner-padding;
+    padding: $padding;
 
     .work-group {
       display: flex;
-      margin: 2% 10% 2% 10%;
+      margin: 1% 10% 2% 10%;
+      border-bottom: 1px solid $black;
+      padding-bottom: 2%;
 
       .work-item {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        font-family: $font-primary;
         width: 30%;
 
-        .sm {
+        .year {
           font-size: 1rem;
+          font-family: $date;
         }
         
-        .lg {
+        .company {
           font-size: 2rem;
+          font-family: $heading;
         }
         
-        .md {
+        .position {
           font-size: 1.25rem;
+          font-family: $sub-heading;
         }
       }
 
@@ -49,6 +45,8 @@
         justify-content: center;
         font-size: 1.25rem;
         padding-top: 2%;
+        font-family: $paragraph;
+        margin-left: 2%;
       }
     }
   }

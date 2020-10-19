@@ -1,0 +1,15 @@
+
+@mixin box {
+    width: 70%;
+    color: $black;
+    background-color: $white;
+    box-shadow: $shadow;
+    margin-top: 5%;
+    padding: 2% 0% 4% 0%;
+}
+
+@mixin header {
+    font-size: 2.5rem;
+    font-family: $section-heading;
+    margin-left: 5%;
+}

@@ -9,9 +9,9 @@ export default function Work() {
       <div className='work-container'>
         <div className='work-group'>   
           <div className='work-item'>
-            <p className='sm'>2011-2012</p>
-            <p className='lg'>Challenge MFG</p>
-            <p className='md'>Robotic Programmer</p>
+            <p className='year'>2011-2012</p>
+            <p className='company'>Challenge MFG</p>
+            <p className='position'>Robotic Programmer</p>
           </div>
           <div className='work-para'>
             Challenge Mfg. is an automotive parts manufacturer. 
@@ -20,9 +20,9 @@ export default function Work() {
         </div>
         <div className='work-group'>
           <div className='work-item'>
-            <p className='sm'>2012-2013</p>
-            <p className='lg'>Traumasoft</p>
-            <p className='md'>Web Developer</p>
+            <p className='year'>2012-2013</p>
+            <p className='company'>Traumasoft</p>
+            <p className='position'>Web Developer</p>
           </div>
           <div className='work-para'>
             Traumasoft Built a call intake system for ambulances and web applications. 
@@ -31,9 +31,9 @@ export default function Work() {
         </div> 
         <div className='work-group'>
           <div className='work-item'>
-            <p className='sm'>2013-2014</p>
-            <p className='lg'>Benteler Automotive</p>
-            <p className='md'>Robotic Programmer</p>
+            <p className='year'>2013-2014</p>
+            <p className='company'>Benteler Automotive</p>
+            <p className='position'>Robotic Programmer</p>
           </div>
           <div className='work-para'>
             Benteler is an automotive parts manufacturer. My job consisted of 
@@ -42,9 +42,9 @@ export default function Work() {
         </div>
         <div className='work-group'>
           <div className='work-item'>
-            <p className='sm'>2014-2017</p>
-            <p className='lg'>Vijon laboratories</p>
-            <p className='md'>PLC Programmer</p>
+            <p className='year'>2014-2017</p>
+            <p className='company'>Vijon laboratories</p>
+            <p className='position'>PLC Programmer</p>
           </div>
           <div className='work-para'>
             Vijon is a major manufacturer of cleaning and cosmetic products. 
@@ -53,9 +53,9 @@ export default function Work() {
         </div>
         <div className='work-group'>
           <div className='work-item'>
-            <p className='sm'>2017-2019</p>
-            <p className='lg'>Clemens Food Group</p>
-            <p className='md'>Electronics Tech</p>
+            <p className='year'>2017-2019</p>
+            <p className='company'>Clemens Food Group</p>
+            <p className='position'>Electronics Tech</p>
           </div>
           <div className='work-para'>
             Clemens is the fifth largest pork producer in the world. My job consisted of electrical

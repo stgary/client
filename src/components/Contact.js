@@ -36,12 +36,13 @@ export default function Contact() {
         <div className='contact-container'>
           <form onSubmit={handleSubmit(onSubmit)}>
             <input
+              className={errors.name && 'err'}
               name='name'
               type='text'
               placeholder='Your name...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.name && 'Your name is required'}</p>
+            <p className='error'>{errors.name && 'Name is a required field!'}</p>
 
             <input
               name='email'
@@ -49,7 +50,7 @@ export default function Contact() {
               placeholder='Your email...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.email && 'Your email is required'}</p>
+            <p className='error'>{errors.email && 'Email is a required field!'}</p>
 
             <input
               name='subject'
@@ -57,7 +58,7 @@ export default function Contact() {
               placeholder='Subject...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.subject && 'A subject is required'}</p>
+            <p className='error'>{errors.subject && 'Subject is a required field!'}</p>
 
             <textarea
               name='message'
@@ -65,7 +66,7 @@ export default function Contact() {
               placeholder='Message...'
               ref={register({ required: true })}
             />
-            <p className='error'>{errors.message && 'A message is required'}</p>
+            <p className='error'>{errors.message && 'Message is a required field'}</p>
 
             <div className='btn-container'>
               <button
@@ -96,7 +97,7 @@ export default function Contact() {
 
         {confirm && 
           <div className='confirmation'>
-            Message Sent!
+            Message Sent! 
           </div>
         }
 

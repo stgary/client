@@ -1,42 +1,37 @@
-@import '../variables';
 
 .edu {
-  width: 70%;
-  color: $color-black;
-  background-color: $color-white;
-  box-shadow: $shadow;
-  margin-top: $margin-top;
-  padding: $outer-padding;
+  @include box;
 
   .edu-header {
-    font-family: $font-secondary;
-    font-size: 2.5rem;
-    margin-left: $margin-left;
+    @include header;
   }
 
   .edu-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: $inner-padding;
+    padding: $padding;
 
     .edu-item {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-family: $font-primary;
+      border-bottom: 1px solid $black;
 
-      .sm {
+      .year {
         font-size: 1rem;
+        font-family: $date;
       }
       
-      .lg {
+      .school {
         font-size: 2rem;
+        font-family: $heading;
       }
       
-      .md {
+      .major {
         font-size: 1.25rem;
+        font-family: $sub-heading;
       }
     }
   }

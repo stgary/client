@@ -1,17 +1,9 @@
-@import '../variables';
 
 .contact {
-  width: 70%;
-  color: $color-black;
-  background-color: $color-white;
-  box-shadow: $shadow;
-  margin-top: $margin-top;
-  padding: $outer-padding;
+  @include box;
 
   .contact-header {
-    font-family: $font-secondary;
-    font-size: 2.5rem;
-    margin-left: $margin-left;
+    @include header;
 
   }
 
@@ -19,18 +11,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: $inner-padding;
+    padding: $padding;
   
     .contact-container {
-      width: 60%;
+      width: 50%;
 
       form {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
 
         .error {
-          color: rgb(190, 42, 42);
+          color: #fff;
+          background-color: #da1f1f;
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          font-family: $paragraph;
+          font-size: 1rem;
+          font-weight: 600;
         }
 
         input {
@@ -41,12 +40,12 @@
           border: 1px solid #9a9a9a;
           border-radius: 4px;
           box-sizing: border-box;
-          font-family: $font-primary;
+          font-family: $paragraph;
           background-color: #f8f8f8;
-          
+
           &:focus {
             outline: none !important;
-            border: 2px solid rgb(98, 99, 100);
+            border: 2px solid $dark-blue;
           }
         }
 
@@ -58,12 +57,12 @@
           border: 1px solid #9a9a9a;
           border-radius: 4px;
           box-sizing: border-box;
-          font-family: $font-primary;
+          font-family: $paragraph;
           background-color: #f8f8f8;
         
           &:focus {
             outline: none !important;
-            border: 2px solid rgb(98, 99, 100);
+            border: 2px solid $dark-blue;
           }
         }
 
@@ -73,7 +72,7 @@
          width: 90%;
          
           button {
-            background-color: rgb(70, 70, 70);
+            background-color: $dark-blue;
             border: none;
             color: #fff;
             padding: 10px 26px;
@@ -81,7 +80,8 @@
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 4px;
-            font-family: $font-primary;
+            font-family: $paragraph;
+            font-size: 1rem;
           }
         }
       }
@@ -91,26 +91,25 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 30%;
-      font-family: $font-primary;
-      font-size: 1.5rem;
-      padding-bottom: 5%;
+      width: 40%;
+      font-size: 1.25rem;
+      font-family: $paragraph;
 
       .user-icon {
         font-size: 3rem;
       }
 
       p {
-        margin-bottom: 1%;
+        margin-bottom: 2%;
       }
 
       .me {
-        font-family: $font-secondary;
+        font-family: $heading;
         font-size: 2.5rem;
       }
 
       .relocate {
-        font-family: $font-secondary;
+        font-family: $heading;
         font-size: 1.5rem;
       }
     }
@@ -123,9 +122,9 @@
     width: 100%;
     margin-top: 2%;
     line-height: 1.25rem;
-    font-family: $font-secondary;
+    font-family: $section-heading;
     font-size: 1rem;
-    color: rgba(51, 51, 51, 0.473);
+    color: $black;
 
     .wait-message {
       width: 85%;
