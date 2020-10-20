@@ -16,12 +16,15 @@ export default function Header() {
         <a href='https://github.com/stgary'>
           <FontAwesomeIcon className='icon' icon={faGithub} />
         </a>
+
         <a href='https://www.linkedin.com/in/sgary0'>
           <FontAwesomeIcon className='icon' icon={faLinkedinIn} />
         </a>
+
         <a href='https://twitter.com/explore'>
           <FontAwesomeIcon className='icon' icon={faTwitter} />
         </a>
+        
         <a href='https://m.facebook.com/stephen.gary.566'> 
           <FontAwesomeIcon className='icon' icon={faFacebook} />
         </a> 

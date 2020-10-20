@@ -18,6 +18,7 @@ export default function Projects() {
           <p className='project-title'>MaterialUI</p>
           <p className='project-desc'>Login and Sign up page</p>
         </div>
+
         <div className='project'>
           <a href='https://chat-app-fgcfhrvdn.vercel.app/' target="_blank" rel="noopener noreferrer" title='chat application'>
             <img className='project-img' src={Chat} alt='realtime chat application' />
@@ -25,6 +26,7 @@ export default function Projects() {
           <p className='project-title'>Realtime Chat Application</p>
           <p className='project-desc'>React, Express, Node and Socket.IO</p>
         </div>
+        
         <div className='project'>
           <a href='/' target="_blank" rel="noopener noreferrer" title='productivity application'>
             <img className='project-img' src={Habit} alt='material ui' />

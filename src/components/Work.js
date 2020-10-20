@@ -3,7 +3,7 @@ import React from 'react'
 export default function Work() {
   return (
     <div className='work'>
-       <div className='work-header'>
+      <div className='work-header'>
         Work
       </div>
       <div className='work-container'>
@@ -18,6 +18,7 @@ export default function Work() {
             My job consisted of electrical maintenance and robotic programming.
           </div>
         </div>
+
         <div className='work-group'>
           <div className='work-item'>
             <p className='year'>2012-2013</p>
@@ -29,6 +30,7 @@ export default function Work() {
             My job consisted of using HTML, CSS, and JavaScript for the design and modification of web applications.
           </div>
         </div> 
+
         <div className='work-group'>
           <div className='work-item'>
             <p className='year'>2013-2014</p>
@@ -40,6 +42,7 @@ export default function Work() {
             electrical maintenance and robotic programming.
           </div>
         </div>
+
         <div className='work-group'>
           <div className='work-item'>
             <p className='year'>2014-2017</p>
@@ -51,6 +54,7 @@ export default function Work() {
             My job consisted of electrical maintenance, PLC programming, integration, and installation.
           </div>
         </div>
+
         <div className='work-group'>
           <div className='work-item'>
             <p className='year'>2017-2019</p>

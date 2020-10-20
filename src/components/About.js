@@ -1,9 +1,5 @@
 import React from 'react';
 import Profile from '../img/pic42.png';
-import CV  from '../pdf/sg.pdf';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (

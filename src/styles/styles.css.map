@@ -14,7 +14,7 @@
         "modules/_projects.scss",
         "modules/_work.scss",
         "modules/_contact.scss",
-        "modules/_repo.scss"
+        "modules/_nav.scss"
     ],
     "names": [],
     "file": "styles.css"
