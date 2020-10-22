@@ -4,7 +4,7 @@
   flex-direction: column;
   font-family: $heading;
   color: $white;
-  margin: 4% 0% 6% 0%;
+  margin: 4% 0% 2% 0%;
   
   .header-name {
     font-size: 4rem;
@@ -20,7 +20,7 @@
 
   .icon-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
 
     .icon {

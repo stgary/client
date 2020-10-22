@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
-
 const END_POINT = process.env.END_POINT || 'https://resume-bkend.herokuapp.com/send';
 
 export default function Contact() {
@@ -30,12 +27,7 @@ export default function Contact() {
   return (
     <div className='contact'>
       <div className='contact-header'>
-        <div className='contact-heading'>
-          Contact
-        </div>
-        <div className='contact-icon'>
-          <FontAwesomeIcon className='user-icon' icon={faUserCircle} />
-        </div>
+        Contact
       </div>
       <div className='contact-info'>
         <div className='contact-container'>
