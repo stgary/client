@@ -311,6 +311,8 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 4% 2% 2% 2%;
 }
 
@@ -328,6 +330,7 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 2%;
 }
 
 .projects .projects-container .project .project-title {
@@ -342,7 +345,7 @@ table {
 }
 
 .projects .projects-container .project a .project-img {
-  width: 21vw;
+  width: 30vw;
 }
 
 .projects .projects-container .project .project-desc {

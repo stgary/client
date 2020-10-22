@@ -3,6 +3,7 @@ import React from 'react'
 import Login from '../img/login.png';
 import Chat from '../img/chat.jpg';
 import Habit from '../img/habit.png';
+import Spotify from '../img/spotifyapi.jpg';
 
 export default function Projects() {
   return (
@@ -12,11 +13,11 @@ export default function Projects() {
       </div>
       <div className='projects-container'>
         <div className='project'>
-          <a href='/' target="_blank" rel="noopener noreferrer" title='login page'>
-            <img className='project-img' src={Login} alt='material ui' />
+          <a href='https://github.com/BuildWeek-SpotifySongSuggestor/back-end' target="_blank" rel="noopener noreferrer" title='productivity application'>
+            <img className='project-img' src={Spotify} alt='spotify api' />
           </a>
-          <p className='project-title'>MaterialUI</p>
-          <p className='project-desc'>Login and Sign up page</p>
+          <p className='project-title'>Spotify API</p>
+          <p className='project-desc'>Express, Node and PostgreSql</p>
         </div>
 
         <div className='project'>
@@ -33,6 +34,14 @@ export default function Projects() {
           </a>
           <p className='project-title'>Productivity App</p>
           <p className='project-desc'>React, Express, Node and PostgreSql</p>
+        </div>
+
+        <div className='project'>
+          <a href='/' target="_blank" rel="noopener noreferrer" title='login page'>
+            <img className='project-img' src={Login} alt='material ui' />
+          </a>
+          <p className='project-title'>MaterialUI</p>
+          <p className='project-desc'>Login and Sign up page</p>
         </div>
       </div>
     </div>
