@@ -4,7 +4,7 @@
   flex-direction: column;
   font-family: $heading;
   color: $white;
-  margin-top: 4%;
+  margin: 4% 0% 6% 0%;
   
   .header-name {
     font-size: 4rem;
@@ -14,7 +14,7 @@
 
   .header-title {
     font-size: 1.25rem;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     font-family: $sub-heading;
   }
 
@@ -24,7 +24,7 @@
     width: 100%;
 
     .icon {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
       color: $white;
     }
   }

@@ -10,8 +10,8 @@ import {
 export default function Header() {
   return (
     <div className='header'>
-      <p className='header-name'>I am Stephen Gary</p>
-      <p className='header-title'>Web Developer</p>
+      <p className='header-name'>Hey, I'm Steve!</p>
+      <p className='header-title'>You can follow me on</p>
       <div className='icon-container'>
         <a href='https://github.com/stgary'>
           <FontAwesomeIcon className='icon' icon={faGithub} />

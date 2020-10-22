@@ -10,7 +10,7 @@ export default function Nav() {
         target='_blank' 
         rel="noopener noreferrer"
       >
-        FE Code
+        React App
       </a>
       <a 
         href='https://github.com/stgary/resume-backend' 
@@ -18,11 +18,12 @@ export default function Nav() {
         target="_blank" 
         rel="noopener noreferrer"
       >
-        BE Code
+        Node App
       </a>
       <a 
-        href={CV} 
+        href={CV}
         className='item' 
+        title='pdf download' 
         download
       >
         Download CV

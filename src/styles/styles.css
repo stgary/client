@@ -102,7 +102,7 @@ table {
           flex-direction: column;
   font-family: "Lora", serif;
   color: #eaeaea;
-  margin-top: 4%;
+  margin: 4% 0% 6% 0%;
 }
 
 .header .header-name {
@@ -113,7 +113,7 @@ table {
 
 .header .header-title {
   font-size: 1.25rem;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -128,7 +128,7 @@ table {
 }
 
 .header .icon-container .icon {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: #eaeaea;
 }
 
@@ -138,7 +138,7 @@ table {
   background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 2% 0% 4% 0%;
 }
 
@@ -146,7 +146,7 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Lora", serif;
   margin-left: 5%;
 }
@@ -158,29 +158,50 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 5% 5% 2% 5%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 5% 5% 2% 10%;
 }
 
 .about .about-container .about-img {
-  width: 17vw;
+  width: 320px;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
-  border-radius: 8px;
-  margin-left: 5%;
 }
 
-.about .about-container .about-para {
+.about .about-container .about-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.about .about-container .about-info .about-desc {
+  font-size: 1.25rem;
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 1.5rem;
-  margin: 2% 5% 2% 5%;
-  line-height: 2rem;
+  font-weight: 700;
+  margin: 0% 0% 2% 10%;
 }
 
-.about .about-container .about-para .para {
-  padding-bottom: 3%;
+.about .about-container .about-info .about-desc .name {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+}
+
+.about .about-container .about-info .about-para {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.25rem;
+  margin: 0% 5% 0% 10%;
+  line-height: 1.5rem;
+}
+
+.about .about-container .about-info .about-para .para {
+  padding-bottom: 2%;
 }
 
 .skills {
@@ -189,12 +210,12 @@ table {
   background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 2% 0% 4% 0%;
 }
 
 .skills .skills-header {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Lora", serif;
   margin-left: 5%;
 }
@@ -213,9 +234,6 @@ table {
 }
 
 .skills .skills-container .skills-item {
-  font-size: 1.5em;
-  font-family: "Alegreya Sans", sans-serif;
-  font-weight: 700;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,6 +241,8 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 1.5em;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .edu {
@@ -231,12 +251,12 @@ table {
   background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 2% 0% 4% 0%;
 }
 
 .edu .edu-header {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Lora", serif;
   margin-left: 5%;
 }
@@ -276,7 +296,7 @@ table {
 }
 
 .edu .edu-container .edu-item .school {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-family: "Lora", serif;
 }
 
@@ -291,12 +311,12 @@ table {
   background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 2% 0% 4% 0%;
 }
 
 .projects .projects-header {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Lora", serif;
   margin-left: 5%;
 }
@@ -345,7 +365,7 @@ table {
 }
 
 .projects .projects-container .project a .project-img {
-  width: 30vw;
+  width: 500px;
 }
 
 .projects .projects-container .project .project-desc {
@@ -360,12 +380,12 @@ table {
   background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 2% 0% 4% 0%;
 }
 
 .work .work-header {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Lora", serif;
   margin-left: 5%;
 }
@@ -409,7 +429,7 @@ table {
 }
 
 .work .work-container .work-group .work-item .company {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-family: "Lora", serif;
 }
 
@@ -440,7 +460,7 @@ table {
   background-color: #eaeaea;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 2% 0% 4% 0%;
 }
 
@@ -448,7 +468,7 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Lora", serif;
   margin-left: 5%;
 }
