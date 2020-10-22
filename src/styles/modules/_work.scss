@@ -16,11 +16,23 @@
       margin: 1% 10% 0% 10%;
       padding-bottom: 1%;
 
+      @include respond-to(medium) {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0% 0% 3% 12%;
+        width: 100%;
+      }
+
       .work-item {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         width: 30%;
+
+        @include respond-to(medium) {
+          width: 75%;
+          margin-bottom: 1%;
+        }
 
         .year {
           @include year;
@@ -28,10 +40,22 @@
         
         .company {
           @include heading;
+          
+          @include respond-to(xlarge) {
+            font-size: 1.3rem;
+          }
+
+          @include respond-to(medium) {
+            font-size: 1.5rem;
+          }
         }
         
         .position {
           @include sub-heading;
+
+          @include respond-to(xlarge) {
+            font-size: 1rem;
+          }
         }
       }
 
@@ -42,6 +66,16 @@
         font-size: 1.25rem;
         font-family: $paragraph;
         margin-left: 2%;
+
+        @include respond-to(xlarge) {
+          font-size: 1rem;
+        }
+
+        @include respond-to(medium) {
+          font-size: 1.1rem;
+          margin: 0;
+          width: 78%;
+        }
       }
     }
   }

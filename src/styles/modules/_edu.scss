@@ -12,12 +12,22 @@
     align-items: center;
     padding: $padding;
 
+    @include respond-to(xsmall) {
+      justify-content: center;
+      flex-direction: column;
+    }
+
     .edu-item {
       @include align;
       flex-direction: column;
+      margin-bottom: 3%;
 
       .year {
         @include year;
+
+        @include respond-to(medium) {
+          font-size: 1rem;
+        }
       }
       
       .school {
@@ -25,7 +35,11 @@
       }
       
       .major {
-        @include sub-heading
+        @include sub-heading;
+
+        @include respond-to(medium) {
+          font-size: 1rem;
+        }
       }
     }
   }

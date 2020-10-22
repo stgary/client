@@ -16,7 +16,7 @@
     .project {
       @include align;
       flex-direction: column;
-      margin-bottom: 2%;
+      margin: 21px;
 
       .project-title {
         font-family: $heading;
@@ -29,7 +29,19 @@
         padding-bottom: 3%;
 
         .project-img {
-         width: 500px; 
+         width: 35vw; 
+
+         @include respond-to(xxlarge) {
+           width: 50vw;
+         }
+
+         @include respond-to(medium) {
+           width: 65vw;
+         }
+
+         @include respond-to(xsmall) {
+           width: 75vw;
+         }
         }
       }
 

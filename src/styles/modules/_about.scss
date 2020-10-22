@@ -11,10 +11,26 @@
     @include justify;
     align-items: flex-start;
     padding: 5% 5% 2% 10%;
+
+    @include respond-to(large) {
+      flex-direction: column;
+      align-items: center;
+      padding: 5% 0% 2% 0%;
+    }
     
     .about-img {
       width: 320px;
       box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 3px 3px 10px 1px #0000008a;
+      border-radius: 5px;
+      
+      @include respond-to(xlarge) {
+        width: 280px;
+      }
+
+      @include respond-to(large) {
+        width: 275px;
+        border-radius: 15%;
+      }
     }
 
     .about-info {
@@ -22,16 +38,40 @@
       flex-direction: column;
       width: 100%;
 
+      @include respond-to(large) {
+        align-items: center;
+      }
+
       
       .about-desc {
         font-size: 1.25rem;
         font-family: $paragraph;
         font-weight: 700;
-        margin: 0% 0% 2% 10% ;
+        margin: 0% 0% 2% 10%;
+
+        @include respond-to(xlarge) {
+          font-size: 1.1rem;
+        }
+
+        @include respond-to(large) {
+          @include align;
+          flex-direction: column;
+          margin: 2% 0% 2% 0%;
+          font-size: 1.25rem;
+        }
         
         .name {
           font-family: $heading;
           font-size: 2rem;
+
+          @include respond-to(xlarge) {
+            font-size: 1.5rem;
+          }
+
+          @include respond-to(large) {
+            margin-bottom: 2%;
+            font-size: 2rem;
+          }
         }
       }
 
@@ -40,6 +80,33 @@
         font-size: 1.25rem;
         margin: 0% 5% 0% 10%;
         line-height: 1.5rem;
+        
+        @include respond-to(xxlarge) {
+          line-height: 1.3rem;
+        }
+
+        @include respond-to(xlarge) {
+          font-size: 1.1rem;
+        }
+        
+        @include respond-to(large) {
+          margin: 0;
+          width: 75%;
+          font-size: 1.25rem;
+          line-height: 1.5rem;
+        }
+
+        @include respond-to(medium) {
+          font-size: 1.1rem;
+        }
+
+        @include respond-to(small) {
+          line-height: 1.3rem;
+        }
+
+        @include respond-to(xsmall) {
+          line-height: 1.2rem;
+        }
   
         .para {
           padding-bottom: 2%;

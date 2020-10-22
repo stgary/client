@@ -25,6 +25,14 @@
     .contact-container {
       width: 50%;
 
+      @include respond-to(medium) {
+        width: 70%;
+      }
+
+      @include respond-to(small) {
+        width: 100%;
+      }
+
       form {
         display: flex;
         flex-direction: column;
@@ -100,8 +108,12 @@
       align-items: center;
       font-size: 1.25rem;
       font-family: $paragraph;
-      font-weight: 700;
+      font-weight: 600;
       margin-bottom: 1%;
+
+      @include respond-to(xsmall) {
+        font-size: 1rem;
+      }
 
       p {
         margin-bottom: 2%;
@@ -110,13 +122,21 @@
       .me {
         font-family: $heading;
         font-size: 2.5rem;
-        font-weight: 700;
+        font-weight: 600;
+
+        @include respond-to(xsmall) {
+          font-size: 1.75rem;
+        }
       }
 
       .relocate {
         font-family: $heading;
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 600;
+      
+        @include respond-to(xsmall) {
+          font-size: 1.25rem;
+        }
       }
     }
   }
@@ -130,8 +150,12 @@
     font-size: 1rem;
     color: $black;
 
+    @include respond-to(xsmall) {
+      font-size: 1rem;
+    }
+
     .wait-message {
-      width: 85%;
+      width: 90%;
     }
 
     .confirmation {

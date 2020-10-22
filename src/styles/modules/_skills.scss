@@ -12,11 +12,21 @@
     align-items: center;
     padding: $padding;
 
+    @include respond-to(xsmall) {
+      justify-content: center;
+    }
+
     .skills-item {
       display: flex;
       flex-direction: column;
       font-size: 1.5em;
       font-family: $paragraph;
+
+      @include respond-to(xsmall) {
+        font-size: 1.25rem;
+        margin: 15px;
+        align-items: flex-start;
+      }
     }
   }
 

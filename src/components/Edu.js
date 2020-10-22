@@ -14,16 +14,16 @@ export default function Edu() {
         </div>
 
         <div className='edu-item'>
-          <p className='year'>2009-2011</p>
-          <p className='school'>KVCC</p>
-          <p className='major'>Computer Science</p>
-        </div>
-        
-        <div className='edu-item'>
           <p className='year'>2019-2020</p>
           <p className='school'>Lambda School</p>
           <p className='major'>Full Stack Development</p>
         </div>
+
+        <div className='edu-item'>
+          <p className='year'>2009-2011</p>
+          <p className='school'>KVCC</p>
+          <p className='major'>Computer Science</p>
+        </div>        
       </div>
     </div>
   )

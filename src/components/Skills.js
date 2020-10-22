@@ -14,9 +14,9 @@ export default function Skills() {
         </div>
 
         <div className='skills-item'>
-          <p>CSS3</p>
+          <p>PostgreSql</p>
           <p>JavaScript</p>
-          <p>HTML5</p>
+          <p>MongoDB</p>
         </div>
 
         <div className='skills-item'>
@@ -24,17 +24,17 @@ export default function Skills() {
           <p>Redux</p>
           <p>Less</p>
         </div>
-        
-        <div className='skills-item'>
-          <p>Sass</p>
-          <p>PostgreSql</p>
-          <p>RTL</p>
-        </div>
 
         <div className='skills-item'>
           <p>REST</p>
-          <p>MongoDB</p>
           <p>Jest</p>
+          <p>Sass</p>
+        </div>
+        
+        <div className='skills-item'>
+          <p>CSS3</p>
+          <p>RTL</p>
+          <p>HTML5</p>
         </div>
       </div>
     </div>

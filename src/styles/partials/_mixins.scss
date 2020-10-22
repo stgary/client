@@ -1,17 +1,70 @@
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "xsmall" {
+    @media (max-width: 500px) {
+      @content;
+    }
+  } 
+
+  @else if $breakpoint == "small" {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+  
+  @else if $breakpoint == "medium" {
+    @media (max-width: 992px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "large" {
+    @media (max-width: 1240px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "xlarge" {
+    @media (max-width: 1300px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "xxlarge" {
+    @media (max-width: 1410px) {
+      @content;
+    }
+  }
+}
 
 @mixin box {
-    width: 70%;
+    width: 80%;
     color: $black;
     background-color: $white;
     box-shadow: $shadow;
     margin-top: 2%;
     padding: 2% 0% 4% 0%;
+
+    @include respond-to(large) {
+      margin-top: 5%;
+    }
+
+    @include respond-to(small) {
+      width: 90%;
+    }
 }
 
 @mixin header {
     font-size: 2.5rem;
     font-family: $heading;
     margin-left: 5%;
+
+    @include respond-to(small) {
+      font-size: 2rem;
+    }
+
+    @include respond-to(xsmall) {
+      font-size: 1.75rem;
+    }
 }
 
 @mixin justify {

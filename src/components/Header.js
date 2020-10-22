@@ -1,4 +1,6 @@
 import React from 'react'
+import CV  from '../pdf/stgary.pdf';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faLinkedinIn,
@@ -29,6 +31,14 @@ export default function Header() {
           <FontAwesomeIcon className='icon' icon={faFacebook} />
         </a> 
       </div>
+      <a 
+        href={CV}
+        className='header-download' 
+        title='pdf download' 
+        download
+      >
+        Download CV
+      </a>
     </div>
   )
 }
