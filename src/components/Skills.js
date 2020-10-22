@@ -28,7 +28,13 @@ export default function Skills() {
         <div className='skills-item'>
           <p>Sass</p>
           <p>PostgreSql</p>
-          <p>Sqlite3</p>
+          <p>RTL</p>
+        </div>
+
+        <div className='skills-item'>
+          <p>REST</p>
+          <p>MongoDB</p>
+          <p>Jest</p>
         </div>
       </div>
     </div>
