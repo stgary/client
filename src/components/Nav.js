@@ -1,5 +1,5 @@
 import React from 'react'
-import CV  from '../pdf/sg.pdf';
+import CV  from '../pdf/stgary.pdf';
 
 export default function Nav() {
   return (
