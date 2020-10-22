@@ -51,6 +51,10 @@
     @include respond-to(small) {
       width: 90%;
     }
+
+    @include respond-to(xsmall) {
+      width: 95%;
+    }
 }
 
 @mixin header {

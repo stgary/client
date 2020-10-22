@@ -20,6 +20,7 @@ export default function App() {
       <Projects />
       <Skills />
       <Contact />
+      <div className='spacer'></div>
     </div>
   );
 }

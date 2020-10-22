@@ -194,6 +194,12 @@ table {
   }
 }
 
+@media (max-width: 500px) {
+  .about {
+    width: 95%;
+  }
+}
+
 .about .about-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -402,6 +408,12 @@ table {
   }
 }
 
+@media (max-width: 500px) {
+  .skills {
+    width: 95%;
+  }
+}
+
 .skills .skills-header {
   font-size: 2.5rem;
   font-family: "Lora", serif;
@@ -456,7 +468,7 @@ table {
 @media (max-width: 500px) {
   .skills .skills-container .skills-item {
     font-size: 1.25rem;
-    margin: 15px;
+    margin: 6px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -482,6 +494,12 @@ table {
 @media (max-width: 767px) {
   .edu {
     width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .edu {
+    width: 95%;
   }
 }
 
@@ -606,6 +624,12 @@ table {
   }
 }
 
+@media (max-width: 500px) {
+  .projects {
+    width: 95%;
+  }
+}
+
 .projects .projects-header {
   font-size: 2.5rem;
   font-family: "Lora", serif;
@@ -714,6 +738,12 @@ table {
 @media (max-width: 767px) {
   .work {
     width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .work {
+    width: 95%;
   }
 }
 
@@ -872,7 +902,6 @@ table {
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
-  margin-bottom: 8%;
 }
 
 @media (max-width: 1240px) {
@@ -884,6 +913,12 @@ table {
 @media (max-width: 767px) {
   .contact {
     width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    width: 95%;
   }
 }
 
