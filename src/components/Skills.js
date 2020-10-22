@@ -22,18 +22,18 @@ export default function Skills() {
         <div className='skills-item'>
           <p>React</p>
           <p>Redux</p>
-          <p>Less</p>
+          <p>REST</p>
         </div>
 
         <div className='skills-item'>
-          <p>REST</p>
           <p>Jest</p>
+          <p>Less</p>
           <p>Sass</p>
         </div>
         
         <div className='skills-item'>
-          <p>CSS3</p>
           <p>RTL</p>
+          <p>CSS3</p>
           <p>HTML5</p>
         </div>
       </div>

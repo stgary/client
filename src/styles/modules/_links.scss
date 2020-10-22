@@ -1,0 +1,21 @@
+
+.repo-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1%;
+  width: 100%;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    font-family: $paragraph;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 6px 16px;
+    margin: 0% 1% 0% 0%;
+    border: 1px solid;
+    border-radius: 3px;
+    @include align;
+  }
+}

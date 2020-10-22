@@ -7,10 +7,12 @@ import Edu from './Edu';
 import Projects from './Projects';
 import Work from './Work';
 import Contact from './Contact';
+import Code from './Code';
 
 export default function App() {
   return (
     <div className='top'>
+      <Code />
       <Header />
       <About />
       <Edu />
@@ -18,7 +20,6 @@ export default function App() {
       <Projects />
       <Skills />
       <Contact />
-      <div className='spacer'></div>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 
 .contact {
   @include box;
+  margin-bottom: 8%;
 
   .contact-header {
     @include header;

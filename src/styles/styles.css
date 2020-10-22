@@ -32,10 +32,6 @@ html #root .top .spacer, body #root .top .spacer {
   height: 100px;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -261,7 +257,6 @@ table {
 @media (max-width: 1240px) {
   .about .about-container .about-img {
     width: 275px;
-    border-radius: 15%;
   }
 }
 
@@ -562,8 +557,20 @@ table {
 }
 
 .edu .edu-container .edu-item .school {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Lora", serif;
+}
+
+@media (max-width: 992px) {
+  .edu .edu-container .edu-item .school {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .edu .edu-container .edu-item .school {
+    font-size: 1.5rem;
+  }
 }
 
 .edu .edu-container .edu-item .major {
@@ -788,8 +795,20 @@ table {
 }
 
 .work .work-container .work-group .work-item .company {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Lora", serif;
+}
+
+@media (max-width: 992px) {
+  .work .work-container .work-group .work-item .company {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .work .work-container .work-group .work-item .company {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -853,6 +872,7 @@ table {
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
+  margin-bottom: 8%;
 }
 
 @media (max-width: 1240px) {
@@ -1116,5 +1136,40 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.repo-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
+  width: 100%;
+}
+
+.repo-links a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 6px 16px;
+  margin: 0% 1% 0% 0%;
+  border: 1px solid;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
