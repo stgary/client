@@ -31,14 +31,34 @@ export default function Header() {
           <FontAwesomeIcon className='icon' icon={faFacebook} />
         </a> 
       </div>
-      <a 
-        href={CV}
-        className='header-download' 
-        title='pdf download' 
-        download
-      >
-        Download CV
-      </a>
+      <div className='header-links'>
+        <a
+          className='link' 
+          href='https://github.com/stgary/resumev3' 
+          title='Front End Ropo' 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          React Repo
+        </a>
+        <a 
+          href={CV}
+          className='link' 
+          title='pdf download' 
+          download
+        >
+          Download CV
+        </a>
+        <a 
+          className='link'
+          href='https://github.com/stgary/resume-backend' 
+          title='Back End Ropo' 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Node Repo
+        </a> 
+      </div>
     </div>
   )
 }

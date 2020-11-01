@@ -38,24 +38,29 @@
 
     .icon {
       font-size: 1.75rem;
-      color: $white;
+      color: $light-grey;
     }
   }
 
-  .header-download {
-    text-decoration: none;
-    padding: 1% 2% 0% 0%;
-    font-size: 1.25rem;
-    color: $white;
-    font-family: $sub-heading;
-    font-weight: 600;
-    border: 1px solid;
-    margin: 10px;
-    padding: 8px;
-    border-radius: 3px;
+  .header-links {
+    @include align;
+    width: 100%;
 
-    @include respond-to(small) {
-      font-size: 1rem;
+      .link {
+      text-decoration: none;
+      font-size: 1.25rem;
+      color: $white;
+      font-family: $sub-heading;
+      font-weight: 600;
+      border: 1px solid $dark-grey;
+      margin: 15px;
+      padding: 10px;
+      background-color: $dark-grey;
+      box-shadow: $shadow;
+
+      @include respond-to(xsmall) {
+        font-size: 0.75rem;
+      }
     }
   }
 }
