@@ -1,10 +1,13 @@
 
+
 .repo-links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 1%;
   width: 100%;
+  box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62);
+  background-color: $black;
 
   a {
     color: $white;
@@ -13,9 +16,14 @@
     font-weight: 600;
     font-size: 1.25rem;
     padding: 6px 16px;
-    margin: 0% 1% 0% 0%;
-    border: 1px solid;
-    border-radius: 3px;
+    margin: 0% 1% 0% 1%;
     @include align;
+  }
+
+  span {
+    font-size: 2rem;
+    font-family: $sub-heading;
+    color: $white;
+    font-weight: 600;
   }
 }

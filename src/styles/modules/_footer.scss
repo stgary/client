@@ -1,0 +1,12 @@
+.footer {
+  @include align;
+  width: 100%;
+  margin: 3% 0% 0% 0%;
+  padding: 10px;
+  font-size: 2rem;
+  color: $white;
+  font-family:$sub-heading;
+  font-weight: 600;
+  background-color: $black;
+  box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62);
+}

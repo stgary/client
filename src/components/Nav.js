@@ -12,15 +12,16 @@ export default function Code() {
         target="_blank" 
         rel="noopener noreferrer"
       >
-        Client
+        React Repo
       </a>
+      <span>こんにちは</span>
       <a 
         href='https://github.com/stgary/resume-backend' 
         title='Back End Ropo' 
         target="_blank" 
         rel="noopener noreferrer"
       >
-        Server
+        Node Repo
       </a> 
     </div>
   )

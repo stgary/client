@@ -147,12 +147,6 @@ table {
   color: #eaeaea;
 }
 
-@media (max-width: 767px) {
-  .header .icon-container .icon {
-    font-size: 1rem;
-  }
-}
-
 .header .header-download {
   text-decoration: none;
   padding: 1% 2% 0% 0%;
@@ -1177,14 +1171,17 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 1%;
   width: 100%;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62);
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62);
+  background-color: #333333;
 }
 
 .repo-links a {
@@ -1194,9 +1191,7 @@ table {
   font-weight: 600;
   font-size: 1.25rem;
   padding: 6px 16px;
-  margin: 0% 1% 0% 0%;
-  border: 1px solid;
-  border-radius: 3px;
+  margin: 0% 1% 0% 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1206,5 +1201,34 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.repo-links span {
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+  color: #eaeaea;
+  font-weight: 600;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 3% 0% 0% 0%;
+  padding: 10px;
+  font-size: 2rem;
+  color: #eaeaea;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  background-color: #333333;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62);
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62);
 }
 /*# sourceMappingURL=styles.css.map */
