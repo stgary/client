@@ -82,21 +82,26 @@
 
         .btn-container {
          display: flex;
-         justify-content: center;
+         justify-content: flex-end;
          width: 90%;
          
           button {
             background-color: $blue;
-            width: 30%;
+            width: 16%;
             border: none;
             color: #fff;
-            padding: 10px 26px;
+            padding: 8px 0px;
             text-decoration: none;
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 4px;
             font-family: $paragraph;
             font-size: 1rem;
+            box-shadow: $shadow;
+
+            &:hover {
+              background-color: #405f88;
+            }
           }
         }
       }

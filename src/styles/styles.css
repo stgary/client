@@ -145,7 +145,7 @@ table {
 
 .header .icon-container .icon {
   font-size: 1.75rem;
-  color: #c0c0c0;
+  color: #eaeaea;
 }
 
 .header .header-links {
@@ -170,9 +170,15 @@ table {
   border: 1px solid #5a5a5a;
   margin: 15px;
   padding: 10px;
-  background-color: #5a5a5a;
+  background-color: #eaeaea30;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.header .header-links .link:hover {
+  background-color: #0000004a;
 }
 
 @media (max-width: 500px) {
@@ -215,7 +221,9 @@ table {
   display: flex;
   font-size: 2.5rem;
   font-family: "Lora", serif;
-  margin-left: 5%;
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
 }
 
 @media (max-width: 767px) {
@@ -367,7 +375,7 @@ table {
 @media (max-width: 1240px) {
   .about .about-container .about-info .about-para {
     margin: 0;
-    width: 75%;
+    width: 85%;
     font-size: 1.25rem;
     line-height: 1.5rem;
   }
@@ -426,7 +434,9 @@ table {
 .skills .skills-header {
   font-size: 2.5rem;
   font-family: "Lora", serif;
-  margin-left: 5%;
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
 }
 
 @media (max-width: 767px) {
@@ -515,7 +525,9 @@ table {
 .edu .edu-header {
   font-size: 2.5rem;
   font-family: "Lora", serif;
-  margin-left: 5%;
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
 }
 
 @media (max-width: 767px) {
@@ -642,7 +654,9 @@ table {
 .projects .projects-header {
   font-size: 2.5rem;
   font-family: "Lora", serif;
-  margin-left: 5%;
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
 }
 
 @media (max-width: 767px) {
@@ -759,7 +773,9 @@ table {
 .work .work-header {
   font-size: 2.5rem;
   font-family: "Lora", serif;
-  margin-left: 5%;
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
 }
 
 @media (max-width: 767px) {
@@ -833,42 +849,43 @@ table {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.work .work-container .work-group .work-item .company {
+.work .work-container .work-group .work-item .position {
   font-size: 2rem;
   font-family: "Lora", serif;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 992px) {
-  .work .work-container .work-group .work-item .company {
+  .work .work-container .work-group .work-item .position {
     font-size: 1.75rem;
   }
 }
 
 @media (max-width: 767px) {
-  .work .work-container .work-group .work-item .company {
+  .work .work-container .work-group .work-item .position {
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 1300px) {
-  .work .work-container .work-group .work-item .company {
+  .work .work-container .work-group .work-item .position {
     font-size: 1.3rem;
   }
 }
 
 @media (max-width: 992px) {
-  .work .work-container .work-group .work-item .company {
+  .work .work-container .work-group .work-item .position {
     font-size: 1.5rem;
   }
 }
 
-.work .work-container .work-group .work-item .position {
+.work .work-container .work-group .work-item .company {
   font-size: 1.25rem;
   font-family: "Noto Sans", sans-serif;
 }
 
 @media (max-width: 1300px) {
-  .work .work-container .work-group .work-item .position {
+  .work .work-container .work-group .work-item .company {
     font-size: 1rem;
   }
 }
@@ -934,7 +951,9 @@ table {
 .contact .contact-header {
   font-size: 2.5rem;
   font-family: "Lora", serif;
-  margin-left: 5%;
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
 }
 
 @media (max-width: 767px) {
@@ -1065,24 +1084,30 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   width: 90%;
 }
 
 .contact .contact-info .contact-container form .btn-container button {
   background-color: #2f4769;
-  width: 30%;
+  width: 16%;
   border: none;
   color: #fff;
-  padding: 10px 26px;
+  padding: 8px 0px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 4px;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 1rem;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+          box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
+}
+
+.contact .contact-info .contact-container form .btn-container button:hover {
+  background-color: #405f88;
 }
 
 .contact .contact-info .info {

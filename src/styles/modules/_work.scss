@@ -38,8 +38,9 @@
           @include year;
         }
         
-        .company {
+        .position {
           @include heading;
+          font-size: 1.5rem;
           
           @include respond-to(xlarge) {
             font-size: 1.3rem;
@@ -50,7 +51,7 @@
           }
         }
         
-        .position {
+        .company {
           @include sub-heading;
 
           @include respond-to(xlarge) {

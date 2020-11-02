@@ -38,7 +38,7 @@
 
     .icon {
       font-size: 1.75rem;
-      color: $light-grey;
+      color: $white;
     }
   }
 
@@ -47,16 +47,23 @@
     width: 100%;
 
       .link {
-      text-decoration: none;
-      font-size: 1.25rem;
-      color: $white;
-      font-family: $sub-heading;
-      font-weight: 600;
-      border: 1px solid $dark-grey;
-      margin: 15px;
-      padding: 10px;
-      background-color: $dark-grey;
-      box-shadow: $shadow;
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: $white;
+        font-family: $sub-heading;
+        font-weight: 600;
+        border: 1px solid $dark-grey;
+        margin: 15px;
+        padding: 10px;
+        background-color: #eaeaea30;
+        box-shadow: $shadow;
+        cursor: pointer;
+        border-radius: 4px;
+        
+        &:hover {
+          background-color: #0000004a;
+        }
+      
 
       @include respond-to(xsmall) {
         font-size: 0.75rem;
