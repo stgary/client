@@ -27,7 +27,7 @@ export default function Work() {
           </div>
           <div className='work-para'>
             Work environment: Allen Bradley HMI's, PLC5, SLC500, Micrologix, Controllogix. 
-            Rxlogix500, 5000, and studio5000. Yaskawa and Powerfelx VFD, Baldor and SEW motors,
+            Rxlogix500, 5000, and studio5000. Yaskawa and Powerflex VFD, Baldor and SEW motors,
             Massman palletizing and LanFranchi bottling systems. My duties consisted of PLC programming,
             device integration and electrical maintenance.    
           </div>
