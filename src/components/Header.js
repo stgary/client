@@ -32,15 +32,6 @@ export default function Header() {
         </a> 
       </div>
       <div className='header-links'>
-        <a
-          className='link' 
-          href='https://github.com/stgary/resumev3' 
-          title='Front End Ropo' 
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          React Repo
-        </a>
         <a 
           href={CV}
           className='link' 
@@ -51,12 +42,12 @@ export default function Header() {
         </a>
         <a 
           className='link'
-          href='https://github.com/stgary/resume-backend' 
-          title='Back End Ropo' 
+          href='https://github.com/stgary/resume' 
+          title='Repository' 
           target="_blank" 
           rel="noopener noreferrer"
         >
-          Node Repo
+          Source Code
         </a> 
       </div>
     </div>
