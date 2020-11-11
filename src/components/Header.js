@@ -1,5 +1,5 @@
 import React from 'react'
-import CV  from '../pdf/stgary.pdf';
+import CV  from '../pdf/stgary.docx';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
