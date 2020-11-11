@@ -29,7 +29,7 @@ export default function Projects() {
         </div>
         
         <div className='project'>
-          <a href='https://daily-planner-ten.vercel.app/calendar' target="_blank" rel="noopener noreferrer" title='Schedular and Visualization'>
+          <a href='https://daily-planner-ten.vercel.app' target="_blank" rel="noopener noreferrer" title='Schedular and Visualization'>
             <img className='project-img' src={Habit} alt='Calendar' />
           </a>
           <p className='project-title'>Scheduling App</p>
