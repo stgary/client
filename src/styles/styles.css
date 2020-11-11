@@ -189,13 +189,13 @@ table {
 
 .about {
   width: 80%;
-  color: #ffffff;
-  background-color: #242424;
+  color: #333333;
+  background-color: #a7a8a1;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
-  border: 1pc solid #272727;
+  border: 1pc solid #424141;
 }
 
 @media (max-width: 1240px) {
@@ -404,13 +404,13 @@ table {
 
 .skills {
   width: 80%;
-  color: #ffffff;
-  background-color: #242424;
+  color: #333333;
+  background-color: #a7a8a1;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
-  border: 1pc solid #272727;
+  border: 1pc solid #424141;
 }
 
 @media (max-width: 1240px) {
@@ -494,13 +494,13 @@ table {
 
 .edu {
   width: 80%;
-  color: #ffffff;
-  background-color: #242424;
+  color: #333333;
+  background-color: #a7a8a1;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
-  border: 1pc solid #272727;
+  border: 1pc solid #424141;
 }
 
 @media (max-width: 1240px) {
@@ -622,13 +622,13 @@ table {
 
 .projects {
   width: 80%;
-  color: #ffffff;
-  background-color: #242424;
+  color: #333333;
+  background-color: #a7a8a1;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
-  border: 1pc solid #272727;
+  border: 1pc solid #424141;
 }
 
 @media (max-width: 1240px) {
@@ -742,13 +742,13 @@ table {
 
 .work {
   width: 80%;
-  color: #ffffff;
-  background-color: #242424;
+  color: #333333;
+  background-color: #a7a8a1;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
-  border: 1pc solid #272727;
+  border: 1pc solid #424141;
 }
 
 @media (max-width: 1240px) {
@@ -919,13 +919,13 @@ table {
 
 .contact {
   width: 80%;
-  color: #ffffff;
-  background-color: #242424;
+  color: #333333;
+  background-color: #a7a8a1;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
-  border: 1pc solid #272727;
+  border: 1pc solid #424141;
 }
 
 @media (max-width: 1240px) {
@@ -1087,7 +1087,7 @@ table {
 }
 
 .contact .contact-info .contact-container form .btn-container button {
-  background-color: #328981;
+  background-color: #2f4769;
   width: 16%;
   border: none;
   color: #fff;
@@ -1103,7 +1103,7 @@ table {
 }
 
 .contact .contact-info .contact-container form .btn-container button:hover {
-  background-color: #147464;
+  background-color: #405f88;
 }
 
 .contact .contact-info .info {
@@ -1172,7 +1172,7 @@ table {
   line-height: 1.25rem;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
-  color: #ffffff;
+  color: #333333;
 }
 
 @media (max-width: 500px) {
