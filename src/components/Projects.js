@@ -29,10 +29,10 @@ export default function Projects() {
         </div>
         
         <div className='project'>
-          <a href='/' target="_blank" rel="noopener noreferrer" title='productivity application'>
-            <img className='project-img' src={Habit} alt='material ui' />
+          <a href='https://daily-planner-ten.vercel.app/calendar' target="_blank" rel="noopener noreferrer" title='Schedular and Visualization'>
+            <img className='project-img' src={Habit} alt='Calendar' />
           </a>
-          <p className='project-title'>Productivity App</p>
+          <p className='project-title'>Scheduling App</p>
           <p className='project-desc'>React, Express, Node and PostgreSql</p>
         </div>
 
