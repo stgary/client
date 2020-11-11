@@ -38,11 +38,12 @@
 
 @mixin box {
     width: 80%;
-    color: $black;
-    background-color: $white;
+    color: #ffffff;
+    background-color: #242424;
     box-shadow: $shadow;
     margin-top: 2%;
     padding: 2% 0% 4% 0%;
+    border: 1pc solid #272727;
 
     @include respond-to(large) {
       margin-top: 5%;

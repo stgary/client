@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Karla&family=Lora:wght@700&family=Noto+Sans&family=Oswald&family=Source+Sans+Pro&display=swap");
 html, body {
-  background-image: url("../img/bg001.jpg");
+  background-image: url("../img/sand.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,12 +189,13 @@ table {
 
 .about {
   width: 80%;
-  color: #333333;
-  background-color: #eaeaea;
+  color: #ffffff;
+  background-color: #242424;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
+  border: 1pc solid #272727;
 }
 
 @media (max-width: 1240px) {
@@ -403,12 +404,13 @@ table {
 
 .skills {
   width: 80%;
-  color: #333333;
-  background-color: #eaeaea;
+  color: #ffffff;
+  background-color: #242424;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
+  border: 1pc solid #272727;
 }
 
 @media (max-width: 1240px) {
@@ -492,12 +494,13 @@ table {
 
 .edu {
   width: 80%;
-  color: #333333;
-  background-color: #eaeaea;
+  color: #ffffff;
+  background-color: #242424;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
+  border: 1pc solid #272727;
 }
 
 @media (max-width: 1240px) {
@@ -619,12 +622,13 @@ table {
 
 .projects {
   width: 80%;
-  color: #333333;
-  background-color: #eaeaea;
+  color: #ffffff;
+  background-color: #242424;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
+  border: 1pc solid #272727;
 }
 
 @media (max-width: 1240px) {
@@ -708,8 +712,8 @@ table {
 
 .projects .projects-container .project a .project-img {
   width: 35vw;
-  -webkit-box-shadow: 7px 9px 10px 0px #11111161;
-          box-shadow: 7px 9px 10px 0px #11111161;
+  -webkit-box-shadow: 13px 11px 20px 0px #00000069;
+          box-shadow: 13px 11px 20px 0px #00000069;
 }
 
 @media (max-width: 1410px) {
@@ -738,12 +742,13 @@ table {
 
 .work {
   width: 80%;
-  color: #333333;
-  background-color: #eaeaea;
+  color: #ffffff;
+  background-color: #242424;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
+  border: 1pc solid #272727;
 }
 
 @media (max-width: 1240px) {
@@ -914,12 +919,13 @@ table {
 
 .contact {
   width: 80%;
-  color: #333333;
-  background-color: #eaeaea;
+  color: #ffffff;
+  background-color: #242424;
   -webkit-box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
           box-shadow: inset 0px 0px 5px 0px rgba(17, 17, 17, 0.62), 0px 0px 15px 0px #0000001a;
   margin-top: 2%;
   padding: 2% 0% 4% 0%;
+  border: 1pc solid #272727;
 }
 
 @media (max-width: 1240px) {
@@ -1081,7 +1087,7 @@ table {
 }
 
 .contact .contact-info .contact-container form .btn-container button {
-  background-color: #2f4769;
+  background-color: #328981;
   width: 16%;
   border: none;
   color: #fff;
@@ -1097,7 +1103,7 @@ table {
 }
 
 .contact .contact-info .contact-container form .btn-container button:hover {
-  background-color: #405f88;
+  background-color: #147464;
 }
 
 .contact .contact-info .info {
@@ -1166,7 +1172,7 @@ table {
   line-height: 1.25rem;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
-  color: #333333;
+  color: #ffffff;
 }
 
 @media (max-width: 500px) {
