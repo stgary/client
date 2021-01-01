@@ -61,12 +61,10 @@
       }
 
       .work-para {
-        @include justify;
-        align-items: flex-end;
         width: 70%;
         font-size: 1.25rem;
         font-family: $paragraph;
-        margin-left: 2%;
+        margin: 2%;
 
         @include respond-to(xlarge) {
           font-size: 1rem;

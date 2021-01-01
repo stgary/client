@@ -22,7 +22,7 @@ export default function Skills() {
         <div className='skills-item'>
           <p>React</p>
           <p>Redux</p>
-          <p>REST</p>
+          <p>Knex</p>
         </div>
 
         <div className='skills-item'>
@@ -32,7 +32,7 @@ export default function Skills() {
         </div>
         
         <div className='skills-item'>
-          <p>RTL</p>
+          <p>REST</p>
           <p>CSS3</p>
           <p>HTML5</p>
         </div>

@@ -543,25 +543,14 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 4% 0% 2% 0%;
-}
-
-@media (max-width: 500px) {
-  .edu .edu-container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 .edu .edu-container .edu-item {
@@ -582,7 +571,7 @@ table {
 }
 
 .edu .edu-container .edu-item .year {
-  font-size: 1em;
+  font-size: 1.25em;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -593,19 +582,19 @@ table {
 }
 
 .edu .edu-container .edu-item .school {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Lora", serif;
 }
 
 @media (max-width: 992px) {
   .edu .edu-container .edu-item .school {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 767px) {
   .edu .edu-container .edu-item .school {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -616,6 +605,17 @@ table {
 
 @media (max-width: 992px) {
   .edu .edu-container .edu-item .major {
+    font-size: 1rem;
+  }
+}
+
+.edu .edu-container .edu-item .deg {
+  font-size: 1.25rem;
+  font-family: "Lora", serif;
+}
+
+@media (max-width: 767px) {
+  .edu .edu-container .edu-item .deg {
     font-size: 1rem;
   }
 }
@@ -842,25 +842,25 @@ table {
 }
 
 .work .work-container .work-group .work-item .year {
-  font-size: 1em;
+  font-size: 1.25em;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .work .work-container .work-group .work-item .position {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Lora", serif;
   font-size: 1.5rem;
 }
 
 @media (max-width: 992px) {
   .work .work-container .work-group .work-item .position {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 767px) {
   .work .work-container .work-group .work-item .position {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -888,19 +888,10 @@ table {
 }
 
 .work .work-container .work-group .work-para {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   width: 70%;
   font-size: 1.25rem;
   font-family: "Alegreya Sans", sans-serif;
-  margin-left: 2%;
+  margin: 2%;
 }
 
 @media (max-width: 1300px) {

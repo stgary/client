@@ -14,8 +14,7 @@ export default function Work() {
             <p className='company'>Clemens Food Group</p>
           </div>
           <div className='work-para'>
-            Work environment: Siemens Simatic 7 HMI's and PLC's. Siemens VFD. Massman palletizing. My duties 
-            consisted of device calibration, installation, and maintenance.
+            Device calibration, integration/installation and maintenance. Siemens electronics.
           </div>
         </div>
         
@@ -26,10 +25,7 @@ export default function Work() {
             <p className='company'>Vijon laboratories</p>
           </div>
           <div className='work-para'>
-            Work environment: Allen Bradley HMI's, PLC5, SLC500, Micrologix, Controllogix. 
-            Rxlogix500, 5000, and studio5000. Yaskawa and Powerflex VFD, Baldor and SEW motors,
-            Massman palletizing and LanFranchi bottling systems. My duties consisted of PLC programming,
-            device integration and electrical maintenance.    
+            PLC programming, device integration/installation and maintenance. Allen-Bradley electronics.     
           </div>
         </div>
 
@@ -40,8 +36,7 @@ export default function Work() {
             <p className='company'>Benteler Automotive</p>
           </div>
           <div className='work-para'>
-            Work environment: Siemens Simatic 7 HMI's and PLC's. Fanuc, Motoman and ABB Robotics. Miller, Lincoln, and WTC weld units. My duties 
-            consisted of Robotic programming and maintenance.
+            Robotic programming and maintenance. ABB, Fanuc and Motoman Robotics.
           </div>
         </div>
 
@@ -52,8 +47,7 @@ export default function Work() {
             <p className='company'>Traumasoft</p>
           </div>
           <div className='work-para'>
-            Work environment: EmberJS, BackboneJS, mustacheJS, HTML5, CSS3 and PHP. My duties consisted of design 
-            and modification of web applications.
+            Design, coding and maintenance of web applications. Agile/Scrum work environment. JavaScript, HTML5, CSS3, MySql, PHP.
           </div>
         </div> 
 
@@ -64,8 +58,7 @@ export default function Work() {
             <p className='company'>Challenge MFG</p>
           </div>
           <div className='work-para'>
-            Work environment: Allen Bradley HMI's, Controllogix and Micrologix. Fanuc, Motoman and ABB Robotics. Lincoln and WTC welding units. My duties 
-            consisted of Robotic programming and maintenance.
+            Robotic programming and maintenance. ABB and Fanuc Robotics.
           </div>
         </div>
       </div>

@@ -100,19 +100,28 @@
 }
 
 @mixin heading {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-family: $heading;
 
     @include respond-to(medium) {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
 
     @include respond-to(small) {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
 }
 
 @mixin year {
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: $date;
+}
+
+@mixin deg {
+  font-size: 1.25rem;
+  font-family: $heading;
+
+  @include respond-to(small) {
+    font-size: 1rem;
+  }
 }
