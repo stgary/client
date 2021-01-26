@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import axios from 'axios';
 
 import Header from './Header';
@@ -16,17 +16,20 @@ export default function App() {
 
   useEffect(() => {
     visits();
-  })
+  });
 
   const visits = () => {
     axios 
-      .put(END_POINT, { id: 1, count: 1 })
+      .get(END_POINT)
         .then(res => {
-          console.log(res.data);
+          console.log('Success');
         })
         .catch(error => {
           console.log(error.message);
         })
+        .finally(fin => {
+          console.log(':)')
+        });
   }
 
   return (
