@@ -21,8 +21,12 @@ export default function App() {
   const visits = () => {
     axios 
       .put(END_POINT, { views: 1 })
-      .then(res => 'Success')
-      .catch(err => 'Failure')
+        .then(res => {
+          console.log(res.data);
+        })
+        .catch(error => {
+          console.log(error.message);
+        })
   }
 
   return (
