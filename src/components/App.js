@@ -20,7 +20,7 @@ export default function App() {
 
   const visits = () => {
     axios 
-      .put(END_POINT, { views: 1 })
+      .put(END_POINT, { id: 1, count: 1 })
         .then(res => {
           console.log(res.data);
         })
