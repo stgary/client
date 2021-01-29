@@ -11,27 +11,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 export default function App() {
-
-  const END_POINT = process.env.END_POINT || 'https://resume-bkend.herokuapp.com/count';
-
-  useEffect(() => {
-    visits();
-  });
-
-  const visits = () => {
-    axios 
-      .get(END_POINT)
-        .then(res => {
-          console.log('Success');
-        })
-        .catch(error => {
-          console.log(error.message);
-        })
-        .finally(fin => {
-          console.log(':)')
-        });
-  }
-
+  
   return (
     <div className='top'>
       <Header />
