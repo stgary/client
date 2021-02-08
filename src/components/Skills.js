@@ -22,12 +22,12 @@ export default function Skills() {
         <div className='skills-item'>
           <p>React</p>
           <p>Redux</p>
-          <p>Knex</p>
+          <p>Linux</p>
         </div>
 
         <div className='skills-item'>
           <p>Jest</p>
-          <p>Less</p>
+          <p>Knex</p>
           <p>Sass</p>
         </div>
         
